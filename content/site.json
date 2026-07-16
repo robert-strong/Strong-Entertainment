@@ -1,0 +1,68 @@
+{
+  "name": "Strong Entertainment",
+  "brand": "Robert Strong",
+  "tagline": "Speaker, Comedy Magician, & Author",
+  "logo": "/assets/images/robert-strong-entertainment-logo.png",
+  "domain": "https://www.strongentertainment.com",
+  "nav": [
+    {
+      "label": "Magician",
+      "href": "/san-francisco-bay-area-magician"
+    },
+    {
+      "label": "Speaker",
+      "href": "/keynote-speaker"
+    },
+    {
+      "label": "Author",
+      "href": "/amaze-and-delight"
+    },
+    {
+      "label": "More",
+      "children": [
+        {
+          "label": "Virtual",
+          "href": "/virtual-magic-shows-and-content-creation"
+        },
+        {
+          "label": "Media",
+          "href": "/media"
+        },
+        {
+          "label": "Trade Shows",
+          "href": "/trade-show-magician"
+        },
+        {
+          "label": "Team Building",
+          "href": "/corporate-team-building-magician"
+        },
+        {
+          "label": "Resources",
+          "href": "/resources"
+        },
+        {
+          "label": "Speak About AI",
+          "href": "https://speakabout.ai/"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "href": "/#contact"
+    }
+  ],
+  "contact": {
+    "email": "info@strongentertainment.com",
+    "phone": "+1 (415) 665-2442",
+    "note": "Call or text (text for the fastest response)"
+  },
+  "social": [
+    "https://www.facebook.com/RobertStrongMagic/",
+    "https://www.instagram.com/robert_strong/",
+    "https://www.youtube.com/user/RobertStrongMagic",
+    "https://www.linkedin.com/in/robertstrong/",
+    "https://www.yelp.com/biz/robert-strong-the-comedy-magician-san-francisco-4",
+    "https://www.google.com/maps/place/Robert+Strong+-+Live+Interactive+Virtual+Comedy+%26+Magic+Shows/@37.7119364,-123.5414926,8z/data=!4m5!3m4!1s0x0:0x315326b79bf1bb7c!8m2!3d37.717245!4d-122.4203375?hl=en"
+  ],
+  "copyright": "Copyright © 2026 Robert Strong"
+}

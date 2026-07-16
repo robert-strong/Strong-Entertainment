@@ -1,0 +1,190 @@
+{
+  "slug": "amaze-and-delight",
+  "navLabel": "Author",
+  "title": "Amaze & Delight: Business Wisdom Told Through Magic",
+  "description": "Amaze & Delight is a Well-Researched & Entertaining Book About Executive Presence, Psychological Safety, Work Culture, & Customer Experience.",
+  "sections": [
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3>Amaze &amp; Delight is a <strong><em>thoroughly researched</em></strong> and entertaining guide to <strong><em>improving executive presence</em></strong>, work culture, and customer experience.</h3>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/amaze-and-delight-robert-strong-book-cover.png",
+          "alt": ""
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/buy-on-amazon-button-for-amaze-and-delight.png",
+          "alt": "Order now at amazon.com button for book Amaze & Delight.",
+          "href": "https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            {
+              "src": "/assets/images/jamie-metzl-amaze-and-delight-review.png",
+              "alt": "jamie-metzl-amaze-and-delight-review.png"
+            },
+            {
+              "src": "/assets/images/mirit-cohen-amaze-and-delight-review.png",
+              "alt": "mirit-cohen-amaze-and-delight-review.png"
+            },
+            {
+              "src": "/assets/images/nawal-fakhoury-amaze-and-delight-review.png",
+              "alt": "nawal-fakhoury-amaze-and-delight-review.png"
+            },
+            {
+              "src": "/assets/images/vinod-khosla-amaze-and-delight-review.png",
+              "alt": "vinod-khosla-amaze-and-delight-review.png"
+            },
+            {
+              "src": "/assets/images/amir-shevat-amaze-and-delight-review.png",
+              "alt": "amir-shevat-amaze-and-delight-review.png"
+            },
+            {
+              "src": "/assets/images/emile-litvak-amaze-and-delight-review.png",
+              "alt": "emile-litvak-amaze-and-delight-review.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/images/author-robert-strong-holding-amaze-in-delight-in-front-of-bookstore.png",
+          "alt": ""
+        },
+        {
+          "type": "text",
+          "html": "<h3><strong><em>Business Wisdom… </em></strong><strong><em>Told Through Magic</em></strong></h3>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Creating and maintaining a happy and healthy work culture is the responsibility of everyone—executives, managers,&nbsp;<em>and</em>&nbsp;individual contributors. <strong>If you’re part of a team at work, this book is for you!</strong><br><br>Drawing from an entire lifetime of captivating and entertaining audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.<br><br>You’ll enjoy illuminating stories from their careers in magic, comedy, and high-tech. And you’ll learn helpful, practical advice that you can start implementing right away, including:</p><ul><li><p>How to create magical moments for your teammates and clients</p></li><li><p>How to build a workplace that feels psychologically safe and supportive</p></li><li><p>How to add joy and humor to your daily interactions with customers and coworkers</p></li><li><p>How to forge stronger connections with your team, even if they work remotely</p></li></ul><p><br>Plus, you'll get <strong>detailed instructions for 12+ stunning magic tricks</strong> you can use to wow your coworkers and friends.</p>"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3><strong>65+ </strong><strong>Five-Star</strong><strong> Reviews on Amazon</strong></h3>"
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3><strong>Behind the Author,</strong><strong> Robert Strong</strong></h3>"
+        },
+        {
+          "type": "text",
+          "html": "<p><strong>Robert Strong</strong>&nbsp;has been voted San Francisco’s “Best Magician” three times and “Best Comedian” twice by the Bay Guardian. He is Google’s unofficial Chief Magic Officer and has been teaching magic there for years to stimulate creativity in the people who work there.</p><p>He performs at the world-famous <a href=\"https://www.magiccastle.com/\">Magic Castle</a> in Hollywood, consults and invents magic tricks that are performed by other professional magicians, produces conferences for professional speakers and entertainers, and books some of the world’s top talent for live appearances at corporate events.</p><p>He is the co-producer and host of <a href=\"https://youtu.be/KLd9zb1lypE?si=9-Qec0oyPQtFwhcY\">Comedy Talks: Conversations with the Legends of Comedy</a> and has shared the stage with countless celebrities, including Robin Williams.</p><p> He has performed in 50 countries, all 50 states, and twice at the White House. He has been a 10-year artist-in-residence at the Smithsonian Institution, resident magician at TEDx San Francisco, resident magician at Singularity University, resident magician at SF Sketchfest, and he sits on the board of the non-profit <a href=\"https://wonderfest.org/\">Wonderfest</a>.</p>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/robert-strong-during-comedy-legend-fireside-chat.png",
+          "alt": ""
+        },
+        {
+          "type": "text",
+          "html": "<p><em>Robert discussing humor with comedy legends Carol Channing and Rich LIttle.</em></p>"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3><strong>Team-Building</strong><strong> Workshops</strong></h3>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/author-robert-strong-leading-a-team-building-workshop-on-stage.png",
+          "alt": "Robert Strong leading a team building exercise between three audience members on stage."
+        },
+        {
+          "type": "text",
+          "html": "<p>If you’d like best-selling Amazon author Robert Strong to share his book’s highly valuable and entertaining business wisdom directly with your team, contact him for information about the many <a href=\"/corporate-team-building-magician\"><strong>professional workshops</strong></a> that he offers.</p><p>Exemplifying the best-practices detailed in his hit book, Robert will customize the keynote, magic show, or workshop to your organization. He’ll incorporate your messaging, culture, or desired outcomes into the experience so it feels relatable and actionable to your audience.</p><p>His fun and interactive workshops are designed to help your team connect, communicate, amaze, delight, and create real magic in the world (in practical and sustainable ways).</p><p>You won’t need to read the book ahead of time because Robert is an entertaining, one-man-tome of business wisdom! As part of the event, Robert will also provide everyone in attendance with a signed copy of Amaze &amp; Delight: Secrets to Creating Magic in Business.</p><p><a href=\"/#contact\"><strong>\n</strong></a></p>"
+        }
+      ]
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            {
+              "src": "/assets/images/robert-strong-with-shane-legg-and-walter-de-brouwer.jpeg",
+              "alt": "Robert with Co-Founder of DeepMind Shane Legg (right) & former CEO of doc.ai Walter DeBrouwer (left). "
+            },
+            {
+              "src": "/assets/images/amaze-and-delight-on-display-in-a-bookstore.jpeg",
+              "alt": "Amaze & Delight on display in a bookstore."
+            },
+            {
+              "src": "/assets/images/robert-strong-and-david-martinez-with-siri-cofounder-adam-cheyer.jpeg",
+              "alt": "Robert Strong (left) & David Martinez (middle) are pictured with Siri co-founder Adam Cheyer (right)."
+            },
+            {
+              "src": "/assets/images/robert-strong-with-parag-agrawal-former-twitter-ceo.jpeg",
+              "alt": "Robert Strong with Parag Agrawal, former CEO of Twitter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3><strong>Frequently Asked Questions About </strong><strong>Amaze &amp; Delight:</strong></h3><p><strong>Who are the authors?</strong></p><p><strong>Robert Strong</strong> is a magician and speaker who has been voted San Francisco’s \"Best Magician\" twice and \"Best Comedian\" three times. He has performed in 50 countries, all 50 states, and twice at the White House. </p><p><strong>David Martinez</strong> had a 30-year career in marketing for high-tech companies, including 17 years at Apple, before pursuing a full-time career as a magician and speaker. </p><p><strong>Where can I buy <em>Amaze &amp; Delight</em>?</strong></p><p>You can buy <em>Amaze &amp; Delight</em> on <a href=\"https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38\"><strong>Amazon</strong></a>, where it has a perfect five-star rating with 65+ reviews.</p><p><strong>Who is <em>Amaze &amp; Delight </em>perfect for?</strong></p><p>The book is recommended and read by C-suite executives, experts, and authorities across all industries. The forward is written by Siri co-creator Adam Cheyer, who says, “I hope you read this book, take away new perspectives and ideas, dream big magical dreams about business or personal growth, and then work hard to turn your visions into reality.”</p><p>This book is perfect for anyone who wants to know how to prepare and deliver engaging presentations, how to run meetings that make attendees glad they were invited, how to build a psychologically safe work environment where the team can share their ideas honestly, and how to create a workplace culture that people love.</p>"
+        }
+      ]
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h2>Contact Robert</h2>"
+        },
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Get in touch",
+              "body": "<p><a href=\"mailto:info@strongentertainment.com\">info@strongentertainment.com</a> for rates and availability. Please be sure to include the date, location, number of guests, and the occasion of your event.</p>"
+            },
+            {
+              "title": "Phone number",
+              "body": "<p>+1 (415) 665-2442 </p><p>Call or text (text for the fastest response)</p>"
+            },
+            {
+              "title": "Email",
+              "body": "<p>mail to: info@strongentertainment.com</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

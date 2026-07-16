@@ -1,0 +1,12 @@
+# build output
+dist/
+node_modules/
+
+# original Squarespace page saves (kept locally as reference, too large for git)
+Strong Entertainment *.html
+Strong Entertainment *_files/
+
+# local env
+.env
+.env.*
+.vercel

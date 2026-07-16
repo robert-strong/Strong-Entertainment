@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Webmaster — Strong Entertainment</title>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --dark:#1d1b1b; --light:#f5f5f5; --accent:#0b6cff; --danger:#c0392b; --ok:#1e8e3e; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Open Sans',sans-serif; font-size:15px; background:var(--light); color:var(--dark); }
+  h1,h2,h3 { font-family:'Fjalla One',sans-serif; font-weight:400; }
+  .hidden { display:none !important; }
+
+  /* login */
+  #login { max-width:360px; margin:14vh auto; background:#fff; padding:36px; border-radius:8px; box-shadow:0 10px 40px rgba(0,0,0,.12); }
+  #login h1 { margin-top:0; }
+  #login input { width:100%; padding:12px; font-size:16px; border:1px solid #ccc; border-radius:5px; margin:8px 0 14px; }
+  .btn { display:inline-block; padding:10px 22px; font-family:'Fjalla One',sans-serif; text-transform:uppercase; letter-spacing:.04em;
+         background:var(--dark); color:#fff; border:2px solid var(--dark); border-radius:4px; cursor:pointer; font-size:14px; text-decoration:none; }
+  .btn:hover { background:#000; }
+  .btn--ghost { background:transparent; color:var(--dark); }
+  .btn--sm { padding:5px 12px; font-size:12px; }
+  .err { color:var(--danger); min-height:1.2em; margin:4px 0; }
+
+  /* app frame */
+  header.bar { position:sticky; top:0; z-index:10; background:var(--dark); color:#fff; display:flex; align-items:center; gap:16px; padding:10px 20px; }
+  header.bar h1 { font-size:18px; margin:0; flex:1; }
+  header.bar select { padding:8px 10px; font-size:14px; border-radius:4px; border:0; min-width:220px; }
+  #status { font-size:13px; min-width:180px; text-align:right; }
+  #status.ok { color:#8ff0a4; } #status.err { color:#ffb3a7; } #status.busy { color:#ffd97d; }
+  #savebtn { background:var(--ok); border-color:var(--ok); }
+  #savebtn:disabled { opacity:.5; cursor:default; }
+
+  main { max-width:900px; margin:26px auto 120px; padding:0 18px; }
+  .note { background:#fff8e1; border:1px solid #f0d98c; border-radius:6px; padding:10px 14px; font-size:13.5px; margin-bottom:18px; }
+
+  .meta-card, .section { background:#fff; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.06); padding:18px 22px; margin-bottom:22px; }
+  .section-head { display:flex; align-items:center; gap:12px; border-bottom:1px solid #eee; padding-bottom:10px; margin-bottom:14px; }
+  .section-head h2 { font-size:15px; margin:0; flex:1; color:#666; text-transform:uppercase; letter-spacing:.06em; }
+  .section-head select { padding:4px 8px; }
+
+  .block { border:1px solid #e8e8e8; border-radius:6px; padding:12px 14px; margin-bottom:12px; }
+  .block-type { font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:#999; margin-bottom:8px; }
+  label { display:block; font-size:12.5px; font-weight:600; color:#555; margin:8px 0 3px; }
+  input[type=text], textarea, select { width:100%; padding:8px 10px; font-size:14px; border:1px solid #ccc; border-radius:4px; font-family:inherit; }
+  textarea { min-height:72px; resize:vertical; font-family:ui-monospace,Consolas,monospace; font-size:13px; line-height:1.5; }
+  textarea.tall { min-height:130px; }
+  .row { display:flex; gap:12px; } .row > div { flex:1; }
+  .thumb { max-height:90px; border-radius:4px; margin-top:6px; border:1px solid #eee; }
+  .preview { border:1px dashed #ddd; border-radius:4px; padding:8px 12px; margin-top:6px; font-size:14px; color:#333; background:#fafafa; }
+  .preview h1,.preview h2,.preview h3 { margin:.2em 0; font-size:1.2em; }
+  .gal-item, .acc-item, .card-item { border-top:1px dashed #e2e2e2; padding-top:8px; margin-top:8px; }
+  details.raw { margin-top:10px; } details.raw summary { cursor:pointer; font-size:12.5px; color:#888; }
+</style>
+</head>
+<body>
+
+<div id="login">
+  <h1>Webmaster Login</h1>
+  <p style="font-size:13.5px;color:#666">Strong Entertainment site editor</p>
+  <input id="pw" type="password" placeholder="Password" autocomplete="current-password">
+  <div class="err" id="loginerr"></div>
+  <button class="btn" id="loginbtn">Sign in</button>
+</div>
+
+<div id="app" class="hidden">
+  <header class="bar">
+    <h1>Site Editor</h1>
+    <select id="pagepick"></select>
+    <span id="status"></span>
+    <button class="btn" id="savebtn" disabled>Save &amp; Publish</button>
+    <button class="btn btn--ghost btn--sm" id="logoutbtn" style="color:#fff;border-color:#666">Log out</button>
+  </header>
+  <main>
+    <div class="note">
+      Edits are saved to GitHub and the live site rebuilds automatically — changes appear in about a minute.
+      Text fields accept simple HTML: <code>&lt;p&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;a href&gt;</code>.
+    </div>
+    <div id="editor"></div>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var doc = null, docPath = null, docSha = null, dirty = false;
+
+  var $ = function (s) { return document.querySelector(s); };
+  function el(tag, attrs, children) {
+    var n = document.createElement(tag);
+    for (var k in (attrs || {})) {
+      if (k === 'text') n.textContent = attrs[k];
+      else if (k.slice(0, 2) === 'on') n.addEventListener(k.slice(2), attrs[k]);
+      else n.setAttribute(k, attrs[k]);
+    }
+    (children || []).forEach(function (c) { n.appendChild(c); });
+    return n;
+  }
+  function setStatus(msg, cls) { var s = $('#status'); s.textContent = msg; s.className = cls || ''; }
+  function markDirty() { dirty = true; $('#savebtn').disabled = false; setStatus('Unsaved changes', 'busy'); }
+
+  function api(path, opts) {
+    return fetch(path, Object.assign({ headers: { 'Content-Type': 'application/json' } }, opts))
+      .then(function (r) {
+        return r.json().then(function (j) {
+          if (!r.ok) throw new Error(j.error || ('HTTP ' + r.status));
+          return j;
+        });
+      });
+  }
+
+  // ---------- login ----------
+  function tryEnter() {
+    api('/api/content?list=1').then(function (j) {
+      $('#login').classList.add('hidden');
+      $('#app').classList.remove('hidden');
+      fillPagePicker(j.files);
+    }).catch(function () { /* stay on login */ });
+  }
+  $('#loginbtn').addEventListener('click', doLogin);
+  $('#pw').addEventListener('keydown', function (e) { if (e.key === 'Enter') doLogin(); });
+  function doLogin() {
+    $('#loginerr').textContent = '';
+    api('/api/login', { method: 'POST', body: JSON.stringify({ password: $('#pw').value }) })
+      .then(tryEnter)
+      .catch(function (e) { $('#loginerr').textContent = e.message; });
+  }
+  $('#logoutbtn') && $('#logoutbtn').addEventListener('click', function () {
+    api('/api/login', { method: 'DELETE' }).then(function () { location.reload(); });
+  });
+
+  // ---------- page picker ----------
+  function fillPagePicker(files) {
+    var pick = $('#pagepick');
+    pick.innerHTML = '';
+    files.sort(function (a, b) {
+      if (a.name === 'index.json') return -1;
+      if (b.name === 'index.json') return 1;
+      return a.path.localeCompare(b.path);
+    });
+    files.forEach(function (f) {
+      var label = f.path === 'content/site.json' ? '⚙ Site settings (nav, footer, contact)'
+        : f.name === 'index.json' ? '🏠 Home page'
+        : f.name.replace('.json', '').replace(/-/g, ' ');
+      pick.appendChild(el('option', { value: f.path, text: label }));
+    });
+    pick.addEventListener('change', function () { loadPage(pick.value); });
+    loadPage(pick.value);
+  }
+
+  function loadPage(path) {
+    if (dirty && !confirm('You have unsaved changes. Discard them?')) {
+      $('#pagepick').value = docPath;
+      return;
+    }
+    setStatus('Loading…', 'busy');
+    api('/api/content?path=' + encodeURIComponent(path)).then(function (j) {
+      doc = j.content; docPath = j.path; docSha = j.sha; dirty = false;
+      $('#savebtn').disabled = true;
+      setStatus('Loaded', 'ok');
+      renderEditor();
+    }).catch(function (e) { setStatus(e.message, 'err'); });
+  }
+
+  // ---------- save ----------
+  $('#savebtn').addEventListener('click', function () {
+    setStatus('Publishing…', 'busy');
+    $('#savebtn').disabled = true;
+    api('/api/save', { method: 'POST', body: JSON.stringify({ path: docPath, content: doc, sha: docSha }) })
+      .then(function (j) {
+        docSha = j.sha; dirty = false;
+        setStatus('Published — live in ~1 min', 'ok');
+      })
+      .catch(function (e) {
+        setStatus(e.message, 'err');
+        $('#savebtn').disabled = false;
+      });
+  });
+  window.addEventListener('beforeunload', function (e) { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+
+  // ---------- field helpers ----------
+  function field(labelText, value, onchange, opts) {
+    opts = opts || {};
+    var input = opts.multiline
+      ? el('textarea', { class: opts.tall ? 'tall' : '' })
+      : el('input', { type: 'text' });
+    input.value = value == null ? '' : value;
+    input.addEventListener('input', function () { onchange(input.value); markDirty(); });
+    var wrap = el('div', {}, [el('label', { text: labelText }), input]);
+    if (opts.preview) {
+      var pv = el('div', { class: 'preview' });
+      pv.innerHTML = input.value;
+      input.addEventListener('input', function () { pv.innerHTML = input.value; });
+      wrap.appendChild(pv);
+    }
+    if (opts.thumb) {
+      var img = el('img', { class: 'thumb', src: input.value, onerror: function () { img.style.display = 'none'; } });
+      input.addEventListener('change', function () { img.src = input.value; img.style.display = ''; });
+      wrap.appendChild(img);
+    }
+    return wrap;
+  }
+
+  // ---------- block editors ----------
+  function blockEditor(b) {
+    var box = el('div', { class: 'block' }, [el('div', { class: 'block-type', text: b.type })]);
+    switch (b.type) {
+      case 'text':
+        box.appendChild(field('Text (HTML)', b.html, function (v) { b.html = v; }, { multiline: true, tall: true, preview: true }));
+        break;
+      case 'image':
+        box.appendChild(field('Image path', b.src, function (v) { b.src = v; }, { thumb: true }));
+        box.appendChild(field('Alt text (describes the image)', b.alt, function (v) { b.alt = v; }));
+        if (b.caption != null) box.appendChild(field('Caption', b.caption, function (v) { b.caption = v; }));
+        if (b.href != null) box.appendChild(field('Links to', b.href, function (v) { b.href = v; }));
+        break;
+      case 'button':
+        box.appendChild(el('div', { class: 'row' }, [
+          field('Button text', b.text, function (v) { b.text = v; }),
+          field('Links to', b.href, function (v) { b.href = v; }),
+        ]));
+        break;
+      case 'video':
+        box.appendChild(field('YouTube video ID (the part after watch?v=)', b.youtubeId, function (v) { b.youtubeId = v.trim(); }));
+        break;
+      case 'embed':
+        box.appendChild(field('Embed URL', b.src, function (v) { b.src = v; }));
+        box.appendChild(field('Title', b.title, function (v) { b.title = v; }));
+        break;
+      case 'accordion':
+        b.items.forEach(function (it, i) {
+          var w = el('div', { class: 'acc-item' });
+          w.appendChild(field('Item ' + (i + 1) + ' — title', it.title, function (v) { it.title = v; }));
+          w.appendChild(field('Item ' + (i + 1) + ' — content (HTML)', it.body, function (v) { it.body = v; }, { multiline: true, preview: true }));
+          box.appendChild(w);
+        });
+        break;
+      case 'gallery':
+        b.images.forEach(function (im, i) {
+          var w = el('div', { class: 'gal-item' });
+          w.appendChild(field('Photo ' + (i + 1) + ' — path', im.src, function (v) { im.src = v; }, { thumb: true }));
+          w.appendChild(field('Photo ' + (i + 1) + ' — alt text', im.alt, function (v) { im.alt = v; }));
+          box.appendChild(w);
+        });
+        break;
+      case 'cards':
+        b.items.forEach(function (c, i) {
+          var w = el('div', { class: 'card-item' });
+          w.appendChild(el('div', { class: 'row' }, [
+            field('Card ' + (i + 1) + ' — title', c.title, function (v) { c.title = v; }),
+            field('Links to', c.href, function (v) { c.href = v; }),
+          ]));
+          w.appendChild(field('Image path', c.image, function (v) { c.image = v; }, { thumb: true }));
+          w.appendChild(field('Text (HTML)', c.html, function (v) { c.html = v; }, { multiline: true, preview: true }));
+          box.appendChild(w);
+        });
+        break;
+      case 'logos':
+        box.appendChild(el('p', { text: 'Scrolling strip of client logos (assets/images/companies-robert-has-performed-at.png). Replace that image file to change it.' }));
+        break;
+      case 'awards':
+        box.appendChild(el('p', { text: 'Scrolling strip of awards (assets/images/robert-strong-top-magician-awards.png). Replace that image file to change it.' }));
+        break;
+      default: {
+        var ta = el('textarea', { class: 'tall' });
+        ta.value = JSON.stringify(b, null, 2);
+        ta.addEventListener('input', function () {
+          try {
+            var parsed = JSON.parse(ta.value);
+            Object.keys(b).forEach(function (k) { delete b[k]; });
+            Object.assign(b, parsed);
+            ta.style.borderColor = '';
+            markDirty();
+          } catch (e) { ta.style.borderColor = 'red'; }
+        });
+        box.appendChild(el('label', { text: 'Raw block JSON' }));
+        box.appendChild(ta);
+      }
+    }
+    return box;
+  }
+
+  // ---------- page/site editors ----------
+  function renderEditor() {
+    var root = $('#editor');
+    root.innerHTML = '';
+
+    if (docPath === 'content/site.json') return renderSiteEditor(root);
+
+    var meta = el('div', { class: 'meta-card' }, [el('h3', { text: 'Page settings (SEO)' })]);
+    meta.appendChild(field('Browser/search title', doc.title, function (v) { doc.title = v; }));
+    meta.appendChild(field('Search description', doc.description, function (v) { doc.description = v; }, { multiline: true }));
+    root.appendChild(meta);
+
+    (doc.sections || []).forEach(function (sec, si) {
+      var head = el('div', { class: 'section-head' }, [el('h2', { text: 'Section ' + (si + 1) })]);
+      var themeSel = el('select', {}, ['light', 'white', 'dark', 'hero'].map(function (t) {
+        var o = el('option', { value: t, text: t });
+        if (sec.theme === t) o.selected = true;
+        return o;
+      }));
+      themeSel.addEventListener('change', function () { sec.theme = themeSel.value; markDirty(); });
+      head.appendChild(el('label', { text: 'Style:', style: 'margin:0' }));
+      head.appendChild(themeSel);
+      var box = el('div', { class: 'section' }, [head]);
+      if (sec.background != null) box.appendChild(field('Background image', sec.background, function (v) { sec.background = v; }, { thumb: true }));
+      (sec.blocks || []).forEach(function (b) { box.appendChild(blockEditor(b)); });
+      root.appendChild(box);
+    });
+  }
+
+  function renderSiteEditor(root) {
+    var card = el('div', { class: 'meta-card' }, [el('h3', { text: 'Site settings' })]);
+    card.appendChild(field('Site name', doc.name, function (v) { doc.name = v; }));
+    card.appendChild(field('Tagline', doc.tagline, function (v) { doc.tagline = v; }));
+    card.appendChild(field('Contact email', doc.contact.email, function (v) { doc.contact.email = v; }));
+    card.appendChild(field('Contact phone', doc.contact.phone, function (v) { doc.contact.phone = v; }));
+    card.appendChild(field('Copyright line', doc.copyright, function (v) { doc.copyright = v; }));
+    root.appendChild(card);
+
+    var adv = el('div', { class: 'meta-card' }, [el('h3', { text: 'Navigation & social links (advanced)' })]);
+    var ta = el('textarea', { class: 'tall', style: 'min-height:260px' });
+    ta.value = JSON.stringify({ nav: doc.nav, social: doc.social }, null, 2);
+    ta.addEventListener('input', function () {
+      try {
+        var parsed = JSON.parse(ta.value);
+        if (parsed.nav) doc.nav = parsed.nav;
+        if (parsed.social) doc.social = parsed.social;
+        ta.style.borderColor = '';
+        markDirty();
+      } catch (e) { ta.style.borderColor = 'red'; }
+    });
+    adv.appendChild(ta);
+    root.appendChild(adv);
+  }
+
+  tryEnter(); // auto-enter if already authenticated
+})();
+</script>
+</body>
+</html>

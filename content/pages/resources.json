@@ -1,0 +1,18 @@
+{
+  "slug": "resources",
+  "navLabel": "Resources",
+  "title": "Resources",
+  "description": null,
+  "sections": [
+    {
+      "theme": "hero",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h1><strong>Magic Resources from Robert Strong</strong></h1>"
+        }
+      ],
+      "background": "/assets/images/business-keynote-speaker-robert-strong-speaking-at-tedx-san-francisco.png"
+    }
+  ]
+}

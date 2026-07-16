@@ -1,0 +1,10 @@
+{
+  "name": "strong-entertainment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "strongentertainment.com — static site with content-JSON build and webmaster editor",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && npx serve dist"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "keynote-speaker",
+  "navLabel": "Speaker",
+  "title": "Award Winning Business Keynote Speaker & World Class Magician Robert Strong",
+  "description": "Corporate Keynote Speaker, Award-Winning Magician, and Bestselling Author Robert Strong Inspires Your Attendees To Create Magic in The World!",
+  "sections": [
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h1><strong>Robert Strong's Keynote </strong><strong>Empowers Businesses to Achieve </strong><strong>Magical Results.</strong></h1>"
+        },
+        {
+          "type": "text",
+          "html": "<h2>Corporate Keynote Speaker, Award-Winning Magician, and Bestselling Author</h2>"
+        },
+        {
+          "type": "button",
+          "text": "Contact",
+          "href": "/#contact"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<p><strong>See some of the Companies who trust Robert Strong</strong><strong> to entertain their executives, teams, and customers:</strong></p>"
+        },
+        {
+          "type": "logos"
+        }
+      ]
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "video",
+          "youtubeId": "XR0b8uiInZQ"
+        },
+        {
+          "type": "text",
+          "html": "<h2><strong>Robert Strong’s Keynote Called “Creating Magic in the World” </strong><strong>Empowers Your Audience</strong><strong> to:</strong></h2><ul><li><p><strong>Create memorable experiences </strong>that connect people.</p></li><li><p><strong>Get customers </strong>excited about your solutions.</p></li><li><p><strong>Grab attention </strong>and deliver captivating presentations.</p></li><li><p><strong>Develop a workplace culture</strong> that people love.</p></li><li><p><strong>Craft amazing stories </strong>that delight.</p></li></ul>"
+        }
+      ]
+    },
+    {
+      "theme": "hero",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h2><strong>Why is Robert Strong </strong><strong>Silicon Valley's Best</strong><strong> Keynote Speaker and Entertainer?</strong></h2><p>Robert's specialty is creating <strong>bespoke business keynotes</strong> and workshops <strong>that</strong>\n<strong>speak to the story of your organization</strong> and its culture.</p><p><strong>He engages your guests </strong>with<strong>\n</strong>the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</p><p>Robert <strong>blends comedy, magic, and storytelling</strong> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</p><p>Robert has a <strong>flawless 35+ year track record</strong> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</p>"
+        }
+      ],
+      "background": "/assets/images/website-homepage-hero-image-white-bar.png"
+    },
+    {
+      "theme": "light",
+      "blocks": [
+        {
+          "type": "awards"
+        },
+        {
+          "type": "anchor",
+          "id": "shows"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h2><strong>Business Wisdom…</strong><strong> Told Through Magic</strong></h2>"
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/business-keynote-speaker-robert-strong-with-book-amaze-and-delight.png",
+          "alt": ""
+        },
+        {
+          "type": "button",
+          "text": "Buy Now",
+          "href": "https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38"
+        },
+        {
+          "type": "button",
+          "text": "Learn More",
+          "href": "/amaze-and-delight"
+        },
+        {
+          "type": "text",
+          "html": "<p>Robert’s book<strong>\n</strong><a href=\"/amaze-and-delight\"><strong><em>Amaze &amp; Delight</em></strong></a> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p>Robert demonstrates how the secrets to his success as an entertainer and magician can become impactful business tools.</p><p>Drawing from an entire lifetime of captivating audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.</p><p>You’ll enjoy illuminating stories from Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h2><strong>He has done </strong><strong>10 TEDx</strong><strong>\n</strong><strong>Talks</strong><strong>, 2 TED Talks, and an appearance on the hit TV show </strong><strong>Penn &amp; Teller Fool Us</strong><strong>.</strong></h2>"
+        },
+        {
+          "type": "text",
+          "html": "<h3> TEDx San Francisco, 2019</h3>"
+        },
+        {
+          "type": "video",
+          "youtubeId": "5gchZMjRfL8"
+        },
+        {
+          "type": "text",
+          "html": "<h3> TEDx San Francisco, 2017</h3>"
+        },
+        {
+          "type": "video",
+          "youtubeId": "TfIR8TaWrnM"
+        },
+        {
+          "type": "text",
+          "html": "<h3>Penn &amp; Teller Fool Us</h3>"
+        },
+        {
+          "type": "video",
+          "youtubeId": "C8IFFrylpwU"
+        },
+        {
+          "type": "text",
+          "html": "<h3>TEDx Palo Alto, 2019</h3>"
+        },
+        {
+          "type": "video",
+          "youtubeId": "HXyoWubMZXI"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review5.png",
+              "alt": "keynote-speaker-robert-strong-review5.png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review1.png",
+              "alt": "keynote-speaker-robert-strong-review1.png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review2.png",
+              "alt": "keynote-speaker-robert-strong-review2.png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review3.png",
+              "alt": "keynote-speaker-robert-strong-review3.png"
+            },
+            {
+              "src": "/assets/images/adam-cheyer-speaker-review-1-.png",
+              "alt": "adam-cheyer-speaker-review (1).png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h3><strong>Frequently Asked Questions for Keynote Speaker Robert Strong:</strong></h3><p><strong>Who has Robert spoken to in the past?</strong></p><p>Robert has worked with a variety of well-known companies and brands including Google, Amazon, Meta, LinkedIn, Stanford, Genentech, Kaiser Permanente, the Smithsonian, and Amazon. Robert is a sought-after keynote speaker for high-performing business leaders and companies with emerging technologies. He’s an expert at bringing together many different groups of people with his inspirational talks and his motivational team-building workshops.</p><p><strong>How does Robert encourage audience engagement as an event speaker?</strong></p><p>By getting to know each of his clients, Robert customizes every event to promote employee engagement. He gets everyone to participate in small groups through storytelling exercises and even teaches everyone a magic trick that they can do to make their next presentation amazing and memorable. Robert's charisma, public speaking skills, and expertise as a magician will amaze your audience and make your event a hit. </p><p><strong>How do I hire Robert Strong for my event?</strong></p><p>You can find Robert's contact information below! Send him an email with as much information about your event as possible, then schedule a call to review your event goals and your audience. Be sure to ask for a demo over Zoom for you and your team, and then Robert will send a proposal for you to consider. </p><p><strong>What if Robert is unavailable or not the perfect fit for my event?</strong></p><p>Robert knows he is not always the perfect fit for every event, so if you like working with him but want something a little different, let him know that, too. He has been a professional entertainer for almost four decades and knows all the best speakers, comedians, and magicians. He would happily find someone amazing and delightful from his roster to make your event a hit with your attendees.</p><p></p><p><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h2>Contact Robert</h2>"
+        },
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Get in touch",
+              "body": "<p><a href=\"mailto:info@strongentertainment.com\">info@strongentertainment.com</a> for rates and availability. Please be sure to include the date, location, number of guests, and the occasion of your event.</p>"
+            },
+            {
+              "title": "Phone number",
+              "body": "<p>+1 (415) 665-2442 </p><p>Call or text (text for the fastest response)</p>"
+            },
+            {
+              "title": "Email",
+              "body": "<p>mail to: info@strongentertainment.com</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
