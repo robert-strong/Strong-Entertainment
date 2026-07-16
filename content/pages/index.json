@@ -74,7 +74,7 @@
           "type": "image",
           "src": "/assets/images/comedian-magician-robert-strong-smiling-with-book-amaze-and-delight.jpeg",
           "alt": "Comedian magician Robert Strong smiling with his book Amaze & Delight.",
-          "width": 300
+          "width": 350
         },
         {
           "type": "button",
@@ -88,7 +88,7 @@
         },
         {
           "type": "text",
-          "html": "<p><strong>Amaze &amp; Delight</strong> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p>Drawing from an entire lifetime of captivating and entertaining audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on creating fun, memorable experiences for your coworkers and customers.<br><br>You’ll enjoy illuminating stories from comedy magician Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
+          "html": "<p class=\"lg\"><strong>Amaze &amp; Delight</strong> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p class=\"lg\">Drawing from an entire lifetime of captivating and entertaining audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on creating fun, memorable experiences for your coworkers and customers.<br><br>You’ll enjoy illuminating stories from comedy magician Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
         }
       ]
     },
@@ -103,11 +103,11 @@
           "type": "image",
           "src": "/assets/images/comedy-magician-robert-strong-in-suit-doing-card-spring.jpeg",
           "alt": "Comedy magician Robert Strong in a suit doing a card spring.",
-          "width": 400
+          "width": 467
         },
         {
           "type": "text",
-          "html": "<p>Robert has performed for most of the Fortune 500 companies, in all 50 states, in 50 different countries, on every major TV network, and twice at the White House. Combining speaking, comedy, magic, and real practical business takeaways, Robert Strong will make your corporate event so memorable that your team members will talk about it for years! After performing for 10,000+ happy audiences, it’s no wonder why Robert knows exactly how to make your event unforgettable.</p><p>In addition to keynote speaking, Robert is a world-renowned comedy magician, <a href=\"/trade-show-magician\"><strong>trade show presenter</strong></a>, master of ceremonies, and bestselling author of <a href=\"/amaze-and-delight\"><strong>Amaze &amp; Delight: Secrets to Creating Magic in Business</strong></a>. Robert is also the founder and CEO of <a href=\"https://speakabout.ai\"><strong>Speak About AI</strong></a>, a bureau for business keynote speakers and thought leaders on the cutting edge of artificial intelligence. </p>"
+          "html": "<p class=\"lg\">Robert has performed for most of the Fortune 500 companies, in all 50 states, in 50 different countries, on every major TV network, and twice at the White House. Combining speaking, comedy, magic, and real practical business takeaways, Robert Strong will make your corporate event so memorable that your team members will talk about it for years! After performing for 10,000+ happy audiences, it’s no wonder why Robert knows exactly how to make your event unforgettable.</p><p class=\"lg\">In addition to keynote speaking, Robert is a world-renowned comedy magician, <a href=\"/trade-show-magician\"><strong>trade show presenter</strong></a>, master of ceremonies, and bestselling author of <a href=\"/amaze-and-delight\"><strong>Amaze &amp; Delight: Secrets to Creating Magic in Business</strong></a>. Robert is also the founder and CEO of <a href=\"https://speakabout.ai\"><strong>Speak About AI</strong></a>, a bureau for business keynote speakers and thought leaders on the cutting edge of artificial intelligence. </p>"
         }
       ]
     },
@@ -120,30 +120,30 @@
         },
         {
           "type": "text",
-          "html": "<h3> TEDx San Francisco</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco</h3>"
         },
         {
           "type": "video",
           "youtubeId": "5gchZMjRfL8",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>Robert’s Reel:</h3>"
+          "html": "<h3 class=\"ta-c\">Robert’s Reel:</h3>"
         },
         {
           "type": "video",
           "youtubeId": "5I7VxaVS-es",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>Penn &amp; Teller: Fool Us</h3>"
+          "html": "<h3 class=\"ta-c\">Penn &amp; Teller: Fool Us</h3>"
         },
         {
           "type": "video",
           "youtubeId": "C8IFFrylpwU",
-          "width": 600
+          "width": 700
         }
       ]
     },
@@ -158,11 +158,11 @@
           "type": "image",
           "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-rubicks-cube.jpg",
           "alt": "Comedy magician Robert Strong performing a trick with two Rubik's Cubes.",
-          "width": 200
+          "width": 233
         },
         {
           "type": "text",
-          "html": "<p>In addition to being a speaker and author, <strong>three things differentiate Robert from other comedian magicians:</strong></p><ol><li><p><strong>Robert can explain your solutions to your customers.</strong> Robert researches your company, solutions, and guests and then speaks to them in their&nbsp;lingo. Robert is comfortable speaking to everyone from scientists, engineers, salespeople, marketers, and C-level executives.</p></li><li><p><strong>Robert tailors his comedy magic to be about your company.</strong> Robert does a culture interview with your team to learn about your company's achievements, culture, quirks, and gossip. Then, he personalizes the humor to feel truly special for your guests.</p></li><li><p><strong>He is a master of improv!</strong> He reads the room and finds the clean humor that is unique and special about your group. Everyone is truly invested in the outcome because it’s an interactive experience that’s for them and about them.</p></li></ol>"
+          "html": "<p class=\"lg\">In addition to being a speaker and author, <strong>three things differentiate Robert from other comedian magicians:</strong></p><ol><li><p class=\"lg\"><strong>Robert can explain your solutions to your customers.</strong> Robert researches your company, solutions, and guests and then speaks to them in their&nbsp;lingo. Robert is comfortable speaking to everyone from scientists, engineers, salespeople, marketers, and C-level executives.</p></li><li><p class=\"lg\"><strong>Robert tailors his comedy magic to be about your company.</strong> Robert does a culture interview with your team to learn about your company's achievements, culture, quirks, and gossip. Then, he personalizes the humor to feel truly special for your guests.</p></li><li><p class=\"lg\"><strong>He is a master of improv!</strong> He reads the room and finds the clean humor that is unique and special about your group. Everyone is truly invested in the outcome because it’s an interactive experience that’s for them and about them.</p></li></ol>"
         }
       ]
     },

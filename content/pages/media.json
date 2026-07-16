@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>Media</strong></h1>"
+          "html": "<h1 class=\"ta-c\"><strong>Media</strong></h1>"
         }
       ]
     },
@@ -21,34 +21,34 @@
         },
         {
           "type": "text",
-          "html": "<h3> TEDx San Francisco, 2019</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2019</h3>"
         },
         {
           "type": "video",
           "youtubeId": "5gchZMjRfL8",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3> TEDx San Francisco, 2017</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2017</h3>"
         },
         {
           "type": "video",
           "youtubeId": "TfIR8TaWrnM",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>Penn &amp; Teller Fool Us</h3>"
+          "html": "<h3 class=\"ta-c\">Penn &amp; Teller Fool Us</h3>"
         },
         {
           "type": "video",
           "youtubeId": "C8IFFrylpwU",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>TEDAI, 2023</h3>"
+          "html": "<h3 class=\"ta-c\">TEDAI, 2023</h3>"
         },
         {
           "type": "embed",
@@ -57,30 +57,30 @@
         },
         {
           "type": "text",
-          "html": "<h3>Magician Demo Reel</h3>"
+          "html": "<h3 class=\"ta-c\">Magician Demo Reel</h3>"
         },
         {
           "type": "video",
           "youtubeId": "5I7VxaVS-es",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>TEDx Palo Alto, 2019</h3>"
+          "html": "<h3 class=\"ta-c\">TEDx Palo Alto, 2019</h3>"
         },
         {
           "type": "video",
           "youtubeId": "HXyoWubMZXI",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>Robert on Live TV in Washington, DC</h3>"
+          "html": "<h3 class=\"ta-c\">Robert on Live TV in Washington, DC</h3>"
         },
         {
           "type": "video",
           "youtubeId": "vGbPjWfD99o",
-          "width": 600
+          "width": 700
         }
       ]
     },
@@ -89,7 +89,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>Photos of Silicon Valley Magician Robert Strong</strong></p>"
+          "html": "<p class=\"lg ta-c\"><strong>Photos of Silicon Valley Magician Robert Strong</strong></p>"
         }
       ]
     },
@@ -100,6 +100,106 @@
           "type": "gallery",
           "variant": "grid",
           "images": [
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tedx-warning-assumptions-ahead.jpg",
+              "alt": " Robert talks about Neuroscience at TEDx San Francisco, 2018.",
+              "caption": "Robert talks about Neuroscience at TEDx San Francisco, 2018."
+            },
+            {
+              "src": "/assets/images/35285817_10156375586018665_1709134990802944_o.jpg",
+              "alt": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023.",
+              "caption": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023."
+            },
+            {
+              "src": "/assets/images/71591753_3035932279814191_5254351561294872576_o.png",
+              "alt": "Robert performing amazing illusions at TEDx Palo Alto, 2019.",
+              "caption": "Robert performing amazing illusions at TEDx Palo Alto, 2019."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.22.16.jpeg",
+              "alt": "Robert Strong with Robin Williams.",
+              "caption": "Robert Strong with Robin Williams."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tedx-palo-alto.jpg",
+              "alt": "Robert Strong amazing a crowd at TEDx Palo Alto.",
+              "caption": "Robert Strong amazing a crowd at TEDx Palo Alto."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.21.08.jpeg",
+              "alt": "Circus-themed corporate event for a Bay Area tech company.",
+              "caption": "Circus-themed corporate event for a Bay Area tech company."
+            },
+            {
+              "src": "/assets/images/1697584354421.jpeg",
+              "alt": "On stage performing an AI lie detector at TEDAI in Silicon Valley. ",
+              "caption": "On stage performing an AI lie detector at TEDAI in Silicon Valley."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tektronix-performance.jpg",
+              "alt": "Robert is regularly invited to MC/host corporate events in the Bay Area.",
+              "caption": "Robert is regularly invited to MC/host corporate events in the Bay Area."
+            },
+            {
+              "src": "/assets/images/22459353_10155714770138665_2889781979373984102_o.jpg",
+              "alt": "TEDx SF audiences love Robert Strong’s magic.",
+              "caption": "TEDx SF audiences love Robert Strong’s magic."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-events.jpg",
+              "alt": "Speaking about creating real magic in the world at TEDx San Francisco, 2019.",
+              "caption": "Speaking about creating real magic in the world at TEDx San Francisco, 2019."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-floating-card.jpg",
+              "alt": "Robert Strong was featured in Gentry Magazine for leveraging his Bay Area connections to create magic in the virtual world. ",
+              "caption": "Robert Strong was featured in Gentry Magazine for leveraging his Bay Area connections to create magic in the virtual world."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician.jpg",
+              "alt": "TEDx San Francisco’s resident magician, Robert Strong, combines comedy magic and speaking.",
+              "caption": "TEDx San Francisco’s resident magician, Robert Strong, combines comedy magic and speaking."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-holding-old-fashion-mic.jpg",
+              "alt": "Robert performing magic for a Bay Area tech company private event.",
+              "caption": "Robert performing magic for a Bay Area tech company private event."
+            },
+            {
+              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-in-front-of-large-audience.jpg",
+              "alt": "Robert speaking about creating magic in the real world at UC Berkeley in the East Bay.",
+              "caption": "Robert speaking about creating magic in the real world at UC Berkeley in the East Bay."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.51.jpeg",
+              "alt": "Robert engaging his audience with an interactive magic show.",
+              "caption": "Robert engaging his audience with an interactive magic show."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.22.17.jpeg",
+              "alt": "Robert demonstrating his mastery of cards.",
+              "caption": "Robert demonstrating his mastery of cards."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.53.jpeg",
+              "alt": "Robert demonstrating the magic of technology.",
+              "caption": "Robert demonstrating the magic of technology."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.29.42.jpeg",
+              "alt": "Robert hosting a large corporate event.",
+              "caption": "Robert hosting a large corporate event."
+            },
+            {
+              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.52-1-.jpeg",
+              "alt": "Robert stunning his volunteers with comedy magic in the Bay Area.",
+              "caption": "Robert stunning his volunteers with comedy magic in the Bay Area."
+            },
+            {
+              "src": "/assets/images/robert-strong-magic-comedy-show-sf.jpg",
+              "alt": "Robert stunning an audience member at TEDx Palo Alto.",
+              "caption": "Robert stunning an audience member at TEDx Palo Alto."
+            },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tedx-warning-assumptions-ahead.jpg",
               "alt": " Robert talks about Neuroscience at TEDx San Francisco, 2018."
@@ -179,86 +279,6 @@
             {
               "src": "/assets/images/robert-strong-magic-comedy-show-sf.jpg",
               "alt": "Robert stunning an audience member at TEDx Palo Alto."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tedx-warning-assumptions-ahead.jpg",
-              "alt": " Robert talks about Neuroscience at TEDx San Francisco, 2018."
-            },
-            {
-              "src": "/assets/images/35285817_10156375586018665_1709134990802944_o.jpg",
-              "alt": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023."
-            },
-            {
-              "src": "/assets/images/71591753_3035932279814191_5254351561294872576_o.png",
-              "alt": "Robert performing amazing illusions at TEDx Palo Alto, 2019."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.22.16.jpeg",
-              "alt": "Robert Strong with Robin Williams."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tedx-palo-alto.jpg",
-              "alt": "Robert Strong amazing a crowd at TEDx Palo Alto."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.21.08.jpeg",
-              "alt": "Circus-themed corporate event for a Bay Area tech company."
-            },
-            {
-              "src": "/assets/images/1697584354421.jpeg",
-              "alt": "On stage performing an AI lie detector at TEDAI in Silicon Valley. "
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-tektronix-performance.jpg",
-              "alt": "Robert is regularly invited to MC/host corporate events in the Bay Area."
-            },
-            {
-              "src": "/assets/images/22459353_10155714770138665_2889781979373984102_o.jpg",
-              "alt": "TEDx SF audiences love Robert Strong’s magic."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-events.jpg",
-              "alt": "Speaking about creating real magic in the world at TEDx San Francisco, 2019."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-floating-card.jpg",
-              "alt": "Robert Strong was featured in Gentry Magazine for leveraging his Bay Area connections to create magic in the virtual world. "
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician.jpg",
-              "alt": "TEDx San Francisco’s resident magician, Robert Strong, combines comedy magic and speaking."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-holding-old-fashion-mic.jpg",
-              "alt": "Robert performing magic for a Bay Area tech company private event."
-            },
-            {
-              "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-in-front-of-large-audience.jpg",
-              "alt": "Robert speaking about creating magic in the real world at UC Berkeley in the East Bay."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.51.jpeg",
-              "alt": "Robert engaging his audience with an interactive magic show."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.22.17.jpeg",
-              "alt": "Robert demonstrating his mastery of cards."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.53.jpeg",
-              "alt": "Robert demonstrating the magic of technology."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.29.42.jpeg",
-              "alt": "Robert hosting a large corporate event."
-            },
-            {
-              "src": "/assets/images/whatsapp-image-2024-02-08-at-14.23.52-1-.jpeg",
-              "alt": "Robert stunning his volunteers with comedy magic in the Bay Area."
-            },
-            {
-              "src": "/assets/images/robert-strong-magic-comedy-show-sf.jpg",
-              "alt": "Robert stunning an audience member at TEDx Palo Alto."
             }
           ]
         }
@@ -269,7 +289,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>Photos of Virtual Magician Robert Strong</strong></p>"
+          "html": "<p class=\"lg ta-c\"><strong>Photos of Virtual Magician Robert Strong</strong></p>"
         }
       ]
     },
@@ -282,67 +302,83 @@
           "images": [
             {
               "src": "/assets/images/captureq.png",
-              "alt": "Robert stunning a virtual magic show corporate audience."
+              "alt": "Robert stunning a virtual magic show corporate audience.",
+              "caption": "Robert stunning a virtual magic show corporate audience."
             },
             {
               "src": "/assets/images/robert-strong-doing-clean-magic-with-a-dog-for-a-virtual-crowd.jpg",
-              "alt": "Robert and his new side-kick performing a virtual magic show together"
+              "alt": "Robert and his new side-kick performing a virtual magic show together",
+              "caption": "Robert and his new side-kick performing a virtual magic show together"
             },
             {
               "src": "/assets/images/161567171_767015830585657_3142852817982660034_n.jpg",
-              "alt": "A cartooned digital deception virtual magic show."
+              "alt": "A cartooned digital deception virtual magic show.",
+              "caption": "A cartooned digital deception virtual magic show."
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-legs-over-his-head.jpg",
-              "alt": "Robert is flexible and can customize his show for you!"
+              "alt": "Robert is flexible and can customize his show for you!",
+              "caption": "Robert is flexible and can customize his show for you!"
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-holding-card.jpg",
-              "alt": "Robert stuns virtual crowds with the best virtual magic show they've seen."
+              "alt": "Robert stuns virtual crowds with the best virtual magic show they've seen.",
+              "caption": "Robert stuns virtual crowds with the best virtual magic show they've seen."
             },
             {
               "src": "/assets/images/capturem.png",
-              "alt": "Robert is the perfect virtual magician for every event."
+              "alt": "Robert is the perfect virtual magician for every event.",
+              "caption": "Robert is the perfect virtual magician for every event."
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-with-box-of-money.jpg",
-              "alt": "Robert will create priceless memories for your audience!"
+              "alt": "Robert will create priceless memories for your audience!",
+              "caption": "Robert will create priceless memories for your audience!"
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-holding-stuffed-animal.jpg",
-              "alt": "It's the best magic show for all ages, including seniors and kids."
+              "alt": "It's the best magic show for all ages, including seniors and kids.",
+              "caption": "It's the best magic show for all ages, including seniors and kids."
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-holding-card-that-says-magic.jpg",
-              "alt": "Robert thrills virtual audiences at corporations and family get-togethers!"
+              "alt": "Robert thrills virtual audiences at corporations and family get-togethers!",
+              "caption": "Robert thrills virtual audiences at corporations and family get-togethers!"
             },
             {
               "src": "/assets/images/robert-strong-virtual-magician-2.png",
-              "alt": "Robert performs mind-bending tricks like levitation in front of your own screen!"
+              "alt": "Robert performs mind-bending tricks like levitation in front of your own screen!",
+              "caption": "Robert performs mind-bending tricks like levitation in front of your own screen!"
             },
             {
               "src": "/assets/images/robertoutofscreenconcept2.jpg",
-              "alt": "You can sit back and enjoy Robert's magic from the comfort of your own home."
+              "alt": "You can sit back and enjoy Robert's magic from the comfort of your own home.",
+              "caption": "You can sit back and enjoy Robert's magic from the comfort of your own home."
             },
             {
               "src": "/assets/images/robert-strong-virtual-magician-3.png",
-              "alt": "Robert is also a master juggler!"
+              "alt": "Robert is also a master juggler!",
+              "caption": "Robert is also a master juggler!"
             },
             {
               "src": "/assets/images/robert-strong-virtual-magician-6.png",
-              "alt": "Robert is an amazing escape artist with rope magic."
+              "alt": "Robert is an amazing escape artist with rope magic.",
+              "caption": "Robert is an amazing escape artist with rope magic."
             },
             {
               "src": "/assets/images/7-1-.png",
-              "alt": "A show you enjoy that also has magic for kids."
+              "alt": "A show you enjoy that also has magic for kids.",
+              "caption": "A show you enjoy that also has magic for kids."
             },
             {
               "src": "/assets/images/capturel-1-.png",
-              "alt": "Reach out to Robert directly and he'll answer any questions you may have about his virtual events."
+              "alt": "Reach out to Robert directly and he'll answer any questions you may have about his virtual events.",
+              "caption": "Reach out to Robert directly and he'll answer any questions you may have about his virtual events."
             },
             {
               "src": "/assets/images/capturek.png",
-              "alt": "Book Robert Strong for your virtual corporate events!"
+              "alt": "Book Robert Strong for your virtual corporate events!",
+              "caption": "Book Robert Strong for your virtual corporate events!"
             },
             {
               "src": "/assets/images/captureq.png",
@@ -417,7 +453,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>Photos of Trade Show Magician Robert Strong</strong></p>"
+          "html": "<p class=\"lg ta-c\"><strong>Photos of Trade Show Magician Robert Strong</strong></p>"
         }
       ]
     },
@@ -430,67 +466,83 @@
           "images": [
             {
               "src": "/assets/images/20180829_133753.jpg",
-              "alt": "Robert attracts massive crowds at tons of trade shows in the USA."
+              "alt": "Robert attracts massive crowds at tons of trade shows in the USA.",
+              "caption": "Robert attracts massive crowds at tons of trade shows in the USA."
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-at-trade-show.jpg",
-              "alt": "Robert Strong is the #1 magician for trade show exhibits."
+              "alt": "Robert Strong is the #1 magician for trade show exhibits.",
+              "caption": "Robert Strong is the #1 magician for trade show exhibits."
             },
             {
               "src": "/assets/images/img-20180216-wa0096.jpg",
-              "alt": "As the go to magician for Google, Robert is a highly requested trade-show magician."
+              "alt": "As the go to magician for Google, Robert is a highly requested trade-show magician.",
+              "caption": "As the go to magician for Google, Robert is a highly requested trade-show magician."
             },
             {
               "src": "/assets/images/img_2178.jpg",
-              "alt": "Magic is the perfect trade show entertainment to wow your customers."
+              "alt": "Magic is the perfect trade show entertainment to wow your customers.",
+              "caption": "Magic is the perfect trade show entertainment to wow your customers."
             },
             {
               "src": "/assets/images/img_20170329_121212.jpg",
-              "alt": "Robert on stage for Cisco Live, a top international and USA trade show."
+              "alt": "Robert on stage for Cisco Live, a top international and USA trade show.",
+              "caption": "Robert on stage for Cisco Live, a top international and USA trade show."
             },
             {
               "src": "/assets/images/received_10156730764512222.jpeg",
-              "alt": "Robert is the best trade show hire with his ability to keep your sales team busy."
+              "alt": "Robert is the best trade show hire with his ability to keep your sales team busy.",
+              "caption": "Robert is the best trade show hire with his ability to keep your sales team busy."
             },
             {
               "src": "/assets/images/magician-robert-strong-with-a-guest-putting-handcuffs-on-robert.jpeg",
-              "alt": "Robert mesmerizing an audience member by escaping from a locked chain around his wrist."
+              "alt": "Robert mesmerizing an audience member by escaping from a locked chain around his wrist.",
+              "caption": "Robert mesmerizing an audience member by escaping from a locked chain around his wrist."
             },
             {
               "src": "/assets/images/img_3589.jpg",
-              "alt": "If you're looking for trade show entertainment ideas, magic is the most interactive and engaging option."
+              "alt": "If you're looking for trade show entertainment ideas, magic is the most interactive and engaging option.",
+              "caption": "If you're looking for trade show entertainment ideas, magic is the most interactive and engaging option."
             },
             {
               "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-with-erno.jpg",
-              "alt": "Robert showing a conference attendee the secret to his mindblowing magic."
+              "alt": "Robert showing a conference attendee the secret to his mindblowing magic.",
+              "caption": "Robert showing a conference attendee the secret to his mindblowing magic."
             },
             {
               "src": "/assets/images/veeam-day-4-8-.jpg",
-              "alt": "When looking for tradeshow booth entertainment ideas, book Robert to overwhelm your booth with customers."
+              "alt": "When looking for tradeshow booth entertainment ideas, book Robert to overwhelm your booth with customers.",
+              "caption": "When looking for tradeshow booth entertainment ideas, book Robert to overwhelm your booth with customers."
             },
             {
               "src": "/assets/images/trade-show-magicians-trade-show-presenters-trade-show-speaker-conference-magicians-7-.jpg",
-              "alt": "Robert attracting droves of engineers to Cisco's trade show booth."
+              "alt": "Robert attracting droves of engineers to Cisco's trade show booth.",
+              "caption": "Robert attracting droves of engineers to Cisco's trade show booth."
             },
             {
               "src": "/assets/images/img_20151116_191447104.jpeg",
-              "alt": "Robert engaging with his audience before introducing the demo team."
+              "alt": "Robert engaging with his audience before introducing the demo team.",
+              "caption": "Robert engaging with his audience before introducing the demo team."
             },
             {
               "src": "/assets/images/untitled-92-of-105-2.jpg",
-              "alt": "Wow'ed attendees reacting to spectacular close-up magic."
+              "alt": "Wow'ed attendees reacting to spectacular close-up magic.",
+              "caption": "Wow'ed attendees reacting to spectacular close-up magic."
             },
             {
               "src": "/assets/images/img_2326.jpg",
-              "alt": "Robert providing top tier trade show entertainment."
+              "alt": "Robert providing top tier trade show entertainment.",
+              "caption": "Robert providing top tier trade show entertainment."
             },
             {
               "src": "/assets/images/veeam-4-.jpg",
-              "alt": "Robert with a magic-show volunteer during his show."
+              "alt": "Robert with a magic-show volunteer during his show.",
+              "caption": "Robert with a magic-show volunteer during his show."
             },
             {
               "src": "/assets/images/untitled-33-of-105-.jpg",
-              "alt": "Robert training and educating the sales staff he's working with."
+              "alt": "Robert training and educating the sales staff he's working with.",
+              "caption": "Robert training and educating the sales staff he's working with."
             },
             {
               "src": "/assets/images/20180829_133753.jpg",
@@ -565,7 +617,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>Photos of Robert Strong's Book Out in the Wild</strong></p>"
+          "html": "<p class=\"lg ta-c\"><strong>Photos of Robert Strong's Book Out in the Wild</strong></p>"
         }
       ]
     },
@@ -578,51 +630,63 @@
           "images": [
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49.jpeg",
-              "alt": "Robert with Co-Founder of DeepMind Shane Legg & former CEO of doc.ai. "
+              "alt": "Robert with Co-Founder of DeepMind Shane Legg & former CEO of doc.ai. ",
+              "caption": "Robert with Co-Founder of DeepMind Shane Legg & former CEO of doc.ai."
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.39.13-1-.jpeg",
-              "alt": "Amaze & Delight pictured in a bookstore."
+              "alt": "Amaze & Delight pictured in a bookstore.",
+              "caption": "Amaze & Delight pictured in a bookstore."
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49-2-.jpeg",
-              "alt": "Robert & David pictured with Siri co-founder Adam Cheyer."
+              "alt": "Robert & David pictured with Siri co-founder Adam Cheyer.",
+              "caption": "Robert & David pictured with Siri co-founder Adam Cheyer."
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49-1-.jpeg",
-              "alt": "Robert Strong with Stacy Spikes, co-founder of MoviePass"
+              "alt": "Robert Strong with Stacy Spikes, co-founder of MoviePass",
+              "caption": "Robert Strong with Stacy Spikes, co-founder of MoviePass"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49-3-.jpeg",
-              "alt": "Robert at a book signing for Amaze & Delight."
+              "alt": "Robert at a book signing for Amaze & Delight.",
+              "caption": "Robert at a book signing for Amaze & Delight."
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.39.14-4-.jpeg",
-              "alt": "Amaze & Delight is now available everywhere!"
+              "alt": "Amaze & Delight is now available everywhere!",
+              "caption": "Amaze & Delight is now available everywhere!"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49-4-.jpeg",
-              "alt": "Robert Strong with Parag Agrawal, former CEO of Twitter"
+              "alt": "Robert Strong with Parag Agrawal, former CEO of Twitter",
+              "caption": "Robert Strong with Parag Agrawal, former CEO of Twitter"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.39.14-2-.jpeg",
-              "alt": "An Amazon customer pictured with Amaze & Delight."
+              "alt": "An Amazon customer pictured with Amaze & Delight.",
+              "caption": "An Amazon customer pictured with Amaze & Delight."
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.39.14.jpeg",
-              "alt": "Robert and his book, Amaze & Delight"
+              "alt": "Robert and his book, Amaze & Delight",
+              "caption": "Robert and his book, Amaze & Delight"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.39.14-3-.jpeg",
-              "alt": "Happy customer with Amaze & Delight!"
+              "alt": "Happy customer with Amaze & Delight!",
+              "caption": "Happy customer with Amaze & Delight!"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49-5-.jpeg",
-              "alt": "Amaze & Delight in The Big Apple!"
+              "alt": "Amaze & Delight in The Big Apple!",
+              "caption": "Amaze & Delight in The Big Apple!"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.45.jpeg",
-              "alt": "Co-founder of Blue River Technology, Lee Redden, with Amaze & Delight"
+              "alt": "Co-founder of Blue River Technology, Lee Redden, with Amaze & Delight",
+              "caption": "Co-founder of Blue River Technology, Lee Redden, with Amaze & Delight"
             },
             {
               "src": "/assets/images/whatsapp-image-2024-02-18-at-23.46.49.jpeg",

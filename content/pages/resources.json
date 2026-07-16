@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><span class=\"c-white\"><strong>Magic Resources from Robert Strong</strong></span></h1>"
+          "html": "<h1 class=\"ta-c\"><span class=\"c-white\"><strong>Magic Resources from Robert Strong</strong></span></h1>"
         }
       ],
       "background": "/assets/images/business-keynote-speaker-robert-strong-speaking-at-tedx-san-francisco.png",

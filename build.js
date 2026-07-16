@@ -65,7 +65,9 @@ const render = {
     </div>`,
 
   gallery: b => {
-    const items = b.images.map(i => `<figure><img src="${esc(i.src)}" alt="${esc(i.alt)}" loading="lazy"></figure>`).join('');
+    const items = b.images.map(i =>
+      `<figure><img src="${esc(i.src)}" alt="${esc(i.alt)}" loading="lazy">${i.caption ? `<figcaption>${esc(i.caption)}</figcaption>` : ''}</figure>`
+    ).join('');
     return b.variant === 'slideshow' || b.variant === 'strip' || b.variant === 'reel'
       ? `<div class="gallery gallery--strip">${items}</div>`
       : `<div class="gallery">${items}</div>`;
@@ -99,7 +101,7 @@ function marquee(img, label, height, reverse) {
 function renderBlocks(blocks) {
   // Pre-pass: fold alternating [caption-text, small video/image] pairs (2+ in a row)
   // into captioned grid cells, matching the live site's multi-column media grids.
-  const isSmallMedia = b => !!b && (b.type === 'video' || b.type === 'image') && b.width && b.width <= 640;
+  const isSmallMedia = b => !!b && (b.type === 'video' || b.type === 'image') && b.width && b.width <= 760;
   const isCaption = b => !!b && b.type === 'text' && (b.html || '').length < 400;
   const folded = [];
   for (let i = 0; i < blocks.length;) {
@@ -122,8 +124,8 @@ function renderBlocks(blocks) {
   // buttons -> .btn-row; small images -> .img-row; small videos -> .video-grid
   const out = [];
   let run = [], runKind = null;
-  const isSmallImg = b => b.type === 'image' && b.width && b.width <= 520;
-  const isSmallVid = b => b.type === 'video' && b.width && b.width <= 640;
+  const isSmallImg = b => b.type === 'image' && b.width && b.width <= 610;
+  const isSmallVid = b => b.type === 'video' && b.width && b.width <= 760;
   const kindOf = b => b.type === 'button' ? 'btn' : isSmallImg(b) ? 'img' : isSmallVid(b) ? 'vid' : null;
   const flush = () => {
     if (!run.length) return;
@@ -188,6 +190,9 @@ function navHtml(current) {
         </li>`;
     }
     const active = n.href === '/' + current || (current === '' && n.href === '/');
+    if (n.label === 'Contact') {
+      return `<li class="nav-item"><a class="nav-cta" href="${esc(n.href)}">${esc(n.label)}</a></li>`;
+    }
     return `<li class="nav-item"><a class="nav-link${active ? ' is-active' : ''}" href="${esc(n.href)}">${esc(n.label)}</a></li>`;
   };
   return `

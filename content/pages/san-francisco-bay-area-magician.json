@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>Voted San Francisco’s <br></strong><mark class=\"hl\"><span class=\"c-red\"><strong>Best Comedian</strong></span></mark><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\"><strong>Twice and</strong></span><span class=\"c-red\"><strong>\n</strong></span><mark class=\"hl\"><span class=\"c-red\"><strong>Best Magician</strong></span></mark><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\"><strong>Three Times</strong></span></h1>"
+          "html": "<h1 class=\"ta-c\"><strong>Voted San Francisco’s <br></strong><mark class=\"hl\"><span class=\"c-red\"><strong>Best Comedian</strong></span></mark><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\"><strong>Twice and</strong></span><span class=\"c-red\"><strong>\n</strong></span><mark class=\"hl\"><span class=\"c-red\"><strong>Best Magician</strong></span></mark><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\"><strong>Three Times</strong></span></h1>"
         },
         {
           "type": "text",
-          "html": "<p><strong>Robert performs both in the Bay Area and in countries abroad!</strong></p>"
+          "html": "<p class=\"ta-c\"><strong>Robert performs both in the Bay Area and in countries abroad!</strong></p>"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><span class=\"c-red\"><strong>Companies who trust Robert Strong</strong></span><span class=\"c-white\"><strong> to entertain their executives, their teams, and their customers:</strong></span></p>"
+          "html": "<p class=\"lg ta-c\"><span class=\"c-red\"><strong>Companies who trust Robert Strong</strong></span><span class=\"c-white\"><strong> to entertain their executives, their teams, and their customers:</strong></span></p>"
         },
         {
           "type": "logos"
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Watch This Video to See if Robert Strong is a Match For </strong><span class=\"c-red\"><strong>Your Event</strong></span></h2>"
+          "html": "<h2 class=\"ta-c\"><strong>Watch This Video to See if Robert Strong is a Match For </strong><span class=\"c-red\"><strong>Your Event</strong></span></h2>"
         },
         {
           "type": "video",
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><span class=\"c-white\"><strong>Robert</strong></span><span class=\"c-red\"><strong> is Different From Other San Francisco Magicians </strong></span><span class=\"c-white\"><strong>in Three Ways:</strong></span></h2><p><span class=\"c-white\"><strong>1.</strong> Robert has </span><span class=\"c-red\"><strong>35+ years of experience</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>performing magic</strong></span><span class=\"c-white\"> across the San Francisco Bay Area and the globe. A well-known entertainer among Silicon Valley tech companies and executives, he was a </span><span class=\"c-red\"><strong>resident magician at Google</strong></span><span class=\"c-white\"> and has performed for other companies like LinkedIn, Microsoft, Apple, and Salesforce. Robert was also </span><span class=\"c-red\"><strong>The Smithsonian’s resident magician for 10 years.</strong></span></p><p><span class=\"c-white\"><strong>2.</strong> Robert </span><span class=\"c-red\"><strong>tailors his comedy magic to be about your company.</strong></span><span class=\"c-white\"> Robert does a culture interview with your&nbsp;team to learn about your company's achievements, culture, and quirks/gossip. Then, he </span><span class=\"c-red\"><strong>personalizes the humor so that it feels truly special</strong></span><span class=\"c-white\"> for your guests.</span></p><p><span class=\"c-white\"><strong>3.</strong> He is a master of improv! He </span><span class=\"c-red\"><strong>reads the room, and with your friends and coworkers as volunteers</strong></span><span class=\"c-white\">, Robert finds the humor in your group to make every show unique. Your audience will be invested in the outcome of every trick as </span><span class=\"c-red\"><strong>Robert creates an interactive experience for the audience at your event.</strong></span><span class=\"c-white\">\n</span></p>"
+          "html": "<h2><span class=\"c-white\"><strong>Robert</strong></span><span class=\"c-red\"><strong> is Different From Other San Francisco Magicians </strong></span><span class=\"c-white\"><strong>in Three Ways:</strong></span></h2><p class=\"lg\"><span class=\"c-white\"><strong>1.</strong> Robert has </span><span class=\"c-red\"><strong>35+ years of experience</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>performing magic</strong></span><span class=\"c-white\"> across the San Francisco Bay Area and the globe. A well-known entertainer among Silicon Valley tech companies and executives, he was a </span><span class=\"c-red\"><strong>resident magician at Google</strong></span><span class=\"c-white\"> and has performed for other companies like LinkedIn, Microsoft, Apple, and Salesforce. Robert was also </span><span class=\"c-red\"><strong>The Smithsonian’s resident magician for 10 years.</strong></span></p><p class=\"lg\"><span class=\"c-white\"><strong>2.</strong> Robert </span><span class=\"c-red\"><strong>tailors his comedy magic to be about your company.</strong></span><span class=\"c-white\"> Robert does a culture interview with your&nbsp;team to learn about your company's achievements, culture, and quirks/gossip. Then, he </span><span class=\"c-red\"><strong>personalizes the humor so that it feels truly special</strong></span><span class=\"c-white\"> for your guests.</span></p><p class=\"lg\"><span class=\"c-white\"><strong>3.</strong> He is a master of improv! He </span><span class=\"c-red\"><strong>reads the room, and with your friends and coworkers as volunteers</strong></span><span class=\"c-white\">, Robert finds the humor in your group to make every show unique. Your audience will be invested in the outcome of every trick as </span><span class=\"c-red\"><strong>Robert creates an interactive experience for the audience at your event.</strong></span><span class=\"c-white\">\n</span></p>"
         }
       ],
       "background": "/assets/images/website-homepage-hero-image-white-bar.png",
@@ -64,7 +64,7 @@
         {
           "type": "video",
           "youtubeId": "C8IFFrylpwU",
-          "width": 650
+          "width": 758
         },
         {
           "type": "text",
@@ -77,13 +77,13 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3>Robert Strong has been <span class=\"c-red\"><strong>living and performing magic in San Francisco</strong></span> and the greater Bay Area since 2001.</h3><p>Robert is a comedian and magician who makes your event unforgettable. With countless <span class=\"c-black\">performances, including</span><span class=\"c-dark\"><strong>\n</strong></span><span class=\"c-red\"><strong>10 TEDx Talks, a TED Talk, an appearance on the hit TV show&nbsp;<em>Penn &amp; Teller: Fool Us</em>, and twice at the White House</strong></span><span class=\"c-black\">,</span> Robert knows exactly how to tailor a once-in-a-lifetime event for you and your guests.</p><h3><span class=\"c-black\">Robert </span><span class=\"c-red\"><strong>specializes</strong></span><span class=\"c-black\"> in the following:</span></h3><ul><li><p><a href=\"/keynote-speaker\"><strong>Entertaining &amp; Motivational Keynotes</strong></a> on “How to Create Real Magic in the World!”</p></li><li><p><span class=\"c-red\"><strong>Corporate Entertainment </strong></span><span class=\"c-black\">for conferences, meetings, product launches, seminars, summits, retreats, and more.</span></p></li><li><p><span class=\"c-black\"><strong>Black Tie Events</strong>—</span>including dinners, <span class=\"c-black\">galas, </span>holiday parties, awards ceremonies, Etc.</p></li><li><p><a href=\"/corporate-team-building-magician\"><span class=\"c-red\"><strong>Fun Interactive Team</strong></span><span class=\"c-black\">\n</span><span class=\"c-red\"><strong>Building Workshops</strong></span></a><span class=\"c-black\"> for learning, bonding, and celebrating through play.</span></p></li><li><p><a href=\"/trade-show-magician\"><span class=\"c-black\"><strong>Trade Shows</strong></span></a><span class=\"c-black\"> by attracting customers, communicating your messaging, and introducing qualified leads to your team.</span></p></li><li><p><span class=\"c-red\"><strong>Emcee/Hosting </strong></span><span class=\"c-black\">to make your corporate events more magical, fun, and run more smoothly.</span></p></li><li><p><a href=\"/virtual-magic-shows-and-content-creation\"><strong>Virtual Magic Shows &amp; Content Creation</strong></a>—Robert performs jaw-dropping virtual magic for corporations and parties in addition to producing fun and magical videos shown during your virtual and in-person events.</p></li></ul>"
+          "html": "<h3>Robert Strong has been <span class=\"c-red\"><strong>living and performing magic in San Francisco</strong></span> and the greater Bay Area since 2001.</h3><p class=\"lg\">Robert is a comedian and magician who makes your event unforgettable. With countless <span class=\"c-black\">performances, including</span><span class=\"c-dark\"><strong>\n</strong></span><span class=\"c-red\"><strong>10 TEDx Talks, a TED Talk, an appearance on the hit TV show&nbsp;<em>Penn &amp; Teller: Fool Us</em>, and twice at the White House</strong></span><span class=\"c-black\">,</span> Robert knows exactly how to tailor a once-in-a-lifetime event for you and your guests.</p><h3><span class=\"c-black\">Robert </span><span class=\"c-red\"><strong>specializes</strong></span><span class=\"c-black\"> in the following:</span></h3><ul><li><p class=\"lg\"><a href=\"/keynote-speaker\"><strong>Entertaining &amp; Motivational Keynotes</strong></a> on “How to Create Real Magic in the World!”</p></li><li><p class=\"lg\"><span class=\"c-red\"><strong>Corporate Entertainment </strong></span><span class=\"c-black\">for conferences, meetings, product launches, seminars, summits, retreats, and more.</span></p></li><li><p class=\"lg\"><span class=\"c-black\"><strong>Black Tie Events</strong>—</span>including dinners, <span class=\"c-black\">galas, </span>holiday parties, awards ceremonies, Etc.</p></li><li><p class=\"lg\"><a href=\"/corporate-team-building-magician\"><span class=\"c-red\"><strong>Fun Interactive Team</strong></span><span class=\"c-black\">\n</span><span class=\"c-red\"><strong>Building Workshops</strong></span></a><span class=\"c-black\"> for learning, bonding, and celebrating through play.</span></p></li><li><p class=\"lg\"><a href=\"/trade-show-magician\"><span class=\"c-black\"><strong>Trade Shows</strong></span></a><span class=\"c-black\"> by attracting customers, communicating your messaging, and introducing qualified leads to your team.</span></p></li><li><p class=\"lg\"><span class=\"c-red\"><strong>Emcee/Hosting </strong></span><span class=\"c-black\">to make your corporate events more magical, fun, and run more smoothly.</span></p></li><li><p class=\"lg\"><a href=\"/virtual-magic-shows-and-content-creation\"><strong>Virtual Magic Shows &amp; Content Creation</strong></a>—Robert performs jaw-dropping virtual magic for corporations and parties in addition to producing fun and magical videos shown during your virtual and in-person events.</p></li></ul>"
         },
         {
           "type": "image",
           "src": "/assets/images/robert-strong-san-francisco-magician-and-emcee-floating-holding-book.png",
           "alt": "San Francisco magician Robert Strong in a suit holding a glowing book.",
-          "width": 250
+          "width": 292
         }
       ]
     },
@@ -96,19 +96,23 @@
           "images": [
             {
               "src": "/assets/images/robert-strong-performing-on-stage-as-tedx-san-francisco-magician-and-emcee.jpg",
-              "alt": " Robert talked about Neuroscience at TEDx San Francisco, 2018."
+              "alt": " Robert talked about Neuroscience at TEDx San Francisco, 2018.",
+              "caption": "Robert talked about Neuroscience at TEDx San Francisco, 2018."
             },
             {
               "src": "/assets/images/san-francisco-magician-and-emcee-robert-strong-performing-for-linkedin.jpg",
-              "alt": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023."
+              "alt": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023.",
+              "caption": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023."
             },
             {
               "src": "/assets/images/robert-strong-is-tedx-san-francisco-resident-magician-and-emcee.png",
-              "alt": "Robert performed amazing illusions at TEDx Palo Alto, 2019."
+              "alt": "Robert performed amazing illusions at TEDx Palo Alto, 2019.",
+              "caption": "Robert performed amazing illusions at TEDx Palo Alto, 2019."
             },
             {
               "src": "/assets/images/san-francisco-magician-robert-strong-with-robin-williams.jpeg",
-              "alt": "San Francisco magician Robert Strong with Robin Williams."
+              "alt": "San Francisco magician Robert Strong with Robin Williams.",
+              "caption": "San Francisco magician Robert Strong with Robin Williams."
             },
             {
               "src": "/assets/images/robert-strong-performing-on-stage-as-tedx-san-francisco-magician-and-emcee.jpg",
@@ -135,7 +139,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Frequently Asked Questions for San Francisco Bay Area Magician </strong><span class=\"c-accent\"><strong>Robert Strong:</strong></span></h3><p><strong>Where does Robert live, and does he travel for&nbsp;events?</strong></p><p>Robert is raising his family in Palo Alto, California, right in the heart of Silicon Valley. For half of his events, he happily drives between the beautiful Monterey/Santa Cruz coastline, to the scenic valleys of Napa/Sonoma, and everything in between. And, for the other half of his events, he flies to every corner of the country and even the world. He spent three years doing the Welcome Aboard Show on Carnival, Norwegian, and Disney Cruise Lines and another year performing at theme parks in Singapore and Japan.</p><p><strong>What type of magic does Robert perform?</strong></p><p>Robert is a master of many different types of magic, including comedy magic, illusions, close-up magic, mind reading, escapes,&nbsp;and even juggling. </p><p><strong>How does hiring magician Robert Strong benefit corporate events?</strong></p><p>Hiring Robert Strong makes you look great for having the most fun, entertaining, inspiring, and talked about event of the year. Each performance by Robert is bespoke. During your first meeting with him, he will help you define&nbsp;your event goals. Then, he will share ideas from his 35+ years of experience to help you achieve&nbsp;those goals. Robert is easy to work with, so you can relax and attend your own event.</p><p><strong>How much does a magic show cost?</strong></p><p>Great question, but it all depends on the date, time, show length, location, venue, number of guests, the amount of personalization, and your goals. An hour of close-up magic a mile from his home is not the same price as a custom-built illusion to make your CEO appear on stage in Dubai. So, please provide as much information about your event(s) as possible when contacting Robert.</p><p></p><p><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
+          "html": "<h3><strong>Frequently Asked Questions for San Francisco Bay Area Magician </strong><span class=\"c-accent\"><strong>Robert Strong:</strong></span></h3><p class=\"lg\"><strong>Where does Robert live, and does he travel for&nbsp;events?</strong></p><p>Robert is raising his family in Palo Alto, California, right in the heart of Silicon Valley. For half of his events, he happily drives between the beautiful Monterey/Santa Cruz coastline, to the scenic valleys of Napa/Sonoma, and everything in between. And, for the other half of his events, he flies to every corner of the country and even the world. He spent three years doing the Welcome Aboard Show on Carnival, Norwegian, and Disney Cruise Lines and another year performing at theme parks in Singapore and Japan.</p><p class=\"lg\"><strong>What type of magic does Robert perform?</strong></p><p>Robert is a master of many different types of magic, including comedy magic, illusions, close-up magic, mind reading, escapes,&nbsp;and even juggling. </p><p class=\"lg\"><strong>How does hiring magician Robert Strong benefit corporate events?</strong></p><p>Hiring Robert Strong makes you look great for having the most fun, entertaining, inspiring, and talked about event of the year. Each performance by Robert is bespoke. During your first meeting with him, he will help you define&nbsp;your event goals. Then, he will share ideas from his 35+ years of experience to help you achieve&nbsp;those goals. Robert is easy to work with, so you can relax and attend your own event.</p><p class=\"lg\"><strong>How much does a magic show cost?</strong></p><p>Great question, but it all depends on the date, time, show length, location, venue, number of guests, the amount of personalization, and your goals. An hour of close-up magic a mile from his home is not the same price as a custom-built illusion to make your CEO appear on stage in Dubai. So, please provide as much information about your event(s) as possible when contacting Robert.</p><p></p><p class=\"lg\"><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
         }
       ]
     },

@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>The Best Corporate and </strong><mark class=\"hl\"><span class=\"c-red\"><strong>Team Building Magician</strong></span></mark></h1>"
+          "html": "<h1 class=\"ta-c\"><strong>The Best Corporate and </strong><mark class=\"hl\"><span class=\"c-red\"><strong>Team Building Magician</strong></span></mark></h1>"
         },
         {
           "type": "text",
-          "html": "<h2><strong>Elevate Your Team Building Activities with a </strong><span class=\"c-red\"><strong>Corporate Magician</strong></span></h2>"
+          "html": "<h2 class=\"ta-c\"><strong>Elevate Your Team Building Activities with a </strong><span class=\"c-red\"><strong>Corporate Magician</strong></span></h2>"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><span class=\"c-red\"><strong>These companies trust Robert Strong</strong></span><span class=\"c-white\"><strong> to lead their team building exercises:</strong></span></p>"
+          "html": "<p class=\"lg ta-c\"><span class=\"c-red\"><strong>These companies trust Robert Strong</strong></span><span class=\"c-white\"><strong> to lead their team building exercises:</strong></span></p>"
         },
         {
           "type": "logos"
@@ -47,7 +47,7 @@
         },
         {
           "type": "text",
-          "html": "<p>Robert <span class=\"c-red\"><strong>customizes his magic performances for each client</strong></span>, whether it's clean comedy for a corporate event or team building activities. Robert tailors his magic performances by integrating your organization’s story and mission into his act. Robert will tell jokes your employees relate to and unite your organization through fun and effective office team building activities.</p><p>Robert is a versatile performer who can entertain both live and remote audiences. <span class=\"c-red\"><strong>Boost creativity and teamwork with magic workshops and performances</strong></span>. If you’re looking for corporate team building ideas, Robert is a favorite of Salesforce and SAP.</p><p>Have a great laugh with an experience that will <span class=\"c-red\"><strong>bring you and your co-workers closer together</strong></span>. Enjoy a magic workshop that helps you learn and grow together.</p>"
+          "html": "<p class=\"lg\">Robert <span class=\"c-red\"><strong>customizes his magic performances for each client</strong></span>, whether it's clean comedy for a corporate event or team building activities. Robert tailors his magic performances by integrating your organization’s story and mission into his act. Robert will tell jokes your employees relate to and unite your organization through fun and effective office team building activities.</p><p class=\"lg\">Robert is a versatile performer who can entertain both live and remote audiences. <span class=\"c-red\"><strong>Boost creativity and teamwork with magic workshops and performances</strong></span>. If you’re looking for corporate team building ideas, Robert is a favorite of Salesforce and SAP.</p><p class=\"lg\">Have a great laugh with an experience that will <span class=\"c-red\"><strong>bring you and your co-workers closer together</strong></span>. Enjoy a magic workshop that helps you learn and grow together.</p>"
         }
       ]
     },
@@ -61,38 +61,38 @@
         {
           "type": "video",
           "youtubeId": "9XJ6K04URhA",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p><strong>1.⁠ ⁠Iterative Design</strong></p><p>Learn the value of iterative design through a friendly competition to build the highest structure… using uncooked spaghetti, a yard of tape, a yard of string, and a marshmallow on top. Kindergarteners build higher structures than adults, so good luck!!</p>"
+          "html": "<p class=\"lg\"><strong>1.⁠ ⁠Iterative Design</strong></p><p>Learn the value of iterative design through a friendly competition to build the highest structure… using uncooked spaghetti, a yard of tape, a yard of string, and a marshmallow on top. Kindergarteners build higher structures than adults, so good luck!!</p>"
         },
         {
           "type": "video",
           "youtubeId": "kt9iDplOzAM",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p><strong>2.⁠ ⁠Storytelling</strong></p><p>Robert helps your employees become masterful storytellers who can blend their personal experience into any presentation or talk.</p><p>Watch your employees smile and laugh as they develop their speaking presence through magic, adding their unique flare and personality to a routine!</p><p>Learning magic is the perfect team building activity for startups, corporations, or nonprofits. Get everyone involved and engaged as their coworkers perform magic for the first time!</p>"
+          "html": "<p class=\"lg\"><strong>2.⁠ ⁠Storytelling</strong></p><p>Robert helps your employees become masterful storytellers who can blend their personal experience into any presentation or talk.</p><p>Watch your employees smile and laugh as they develop their speaking presence through magic, adding their unique flare and personality to a routine!</p><p>Learning magic is the perfect team building activity for startups, corporations, or nonprofits. Get everyone involved and engaged as their coworkers perform magic for the first time!</p>"
         },
         {
           "type": "video",
           "youtubeId": "8qeUG42vbkg",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p><strong>3.⁠ ⁠Psychological Safety</strong></p><p>At his workshops, Robert conducts an exercise to increase bonding. First, he asks everyone to think of where they are stuck. The way they’re stuck could be big or small, work-related or personal, straightforward or complicated (but hopefully not literal). Then Robert goes around the circle, and everyone announces where they are stuck and the kind of help they are looking for: I need a bilingual software engineer… a new CTO… a wedding photographer… yummy alternative protein recipes… activities for visiting customers with kids… Chances are, someone in the room can help or may know someone with the solution. It’s a fantastic way to create a deeper connection in groups and solve problems.</p>"
+          "html": "<p class=\"lg\"><strong>3.⁠ ⁠Psychological Safety</strong></p><p>At his workshops, Robert conducts an exercise to increase bonding. First, he asks everyone to think of where they are stuck. The way they’re stuck could be big or small, work-related or personal, straightforward or complicated (but hopefully not literal). Then Robert goes around the circle, and everyone announces where they are stuck and the kind of help they are looking for: I need a bilingual software engineer… a new CTO… a wedding photographer… yummy alternative protein recipes… activities for visiting customers with kids… Chances are, someone in the room can help or may know someone with the solution. It’s a fantastic way to create a deeper connection in groups and solve problems.</p>"
         },
         {
           "type": "video",
           "youtubeId": "YrBb8RnP-F0",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p><strong>4.⁠ ⁠Executive Presence</strong></p><p>Robert also shares the secrets behind amazing presentation, storytelling, and stage presence through teaching your team magic tricks! Robert comes prepared with countless tricks that your employees can learn in an instant and perform for the group!</p><p>Turn everyone in your organization into a master magician with one of Robert’s team building workshops. See employees performing one of Robert’s tricks for yourself. </p>"
+          "html": "<p class=\"lg\"><strong>4.⁠ ⁠Executive Presence</strong></p><p>Robert also shares the secrets behind amazing presentation, storytelling, and stage presence through teaching your team magic tricks! Robert comes prepared with countless tricks that your employees can learn in an instant and perform for the group!</p><p>Turn everyone in your organization into a master magician with one of Robert’s team building workshops. See employees performing one of Robert’s tricks for yourself. </p>"
         }
       ]
     },
@@ -105,19 +105,23 @@
           "images": [
             {
               "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-through-magic.jpeg",
-              "alt": "Robert stunning his volunteers as a magician at a corporate event."
+              "alt": "Robert stunning his volunteers as a magician at a corporate event.",
+              "caption": "Robert stunning his volunteers as a magician at a corporate event."
             },
             {
               "src": "/assets/images/corporate-magician-robert-strong-pictured-with-company-after-leading-office-team-building-activities.jpg",
-              "alt": "A group of happy attendees after completing The Marshmellow Challenge."
+              "alt": "A group of happy attendees after completing The Marshmellow Challenge.",
+              "caption": "A group of happy attendees after completing The Marshmellow Challenge."
             },
             {
               "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-for-a-large-audience.jpeg",
-              "alt": "A company after Robert led team building activities at a large corporate event."
+              "alt": "A company after Robert led team building activities at a large corporate event.",
+              "caption": "A company after Robert led team building activities at a large corporate event."
             },
             {
               "src": "/assets/images/obert-strong-hired-as-magician-for-corporate-event-team-building-activities-.jpg",
-              "alt": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!"
+              "alt": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!",
+              "caption": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!"
             },
             {
               "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-through-magic.jpeg",
@@ -144,7 +148,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Frequently Asked Questions for Corporate and Team Building Magician Robert Strong:</strong></h3><p><strong>Where does Robert live, and&nbsp;where is he willing to travel for&nbsp;events?</strong></p><p>Robert is based in the Bay Area. For half of his events, he happily travels across the country to cities including Las Vegas, New York City, Austin, Los Angeles, Atlanta, Miami, and more. For many of his other events, he travels internationally and has performed in cities like Dubai, London, and Paris. He spent three years doing the Welcome Aboard Show on Carnival, Norwegian, and Disney Cruises and another year performing at theme parks in Singapore and Japan.</p><p><strong>What type of magic does Robert perform?</strong></p><p>Robert is a master of many different types of magic, including comedy magic, illusions, close-up magic, mind reading, escapes, pick-pocketing,&nbsp;and even juggling. </p><p><strong>But, what differentiates him from other magicians are three things:</strong>\n</p><ol><li><p>Robert researches your company, your solutions, and your guests and then speaks to them in their&nbsp;lingo. He lives in the heart of Silicon Valley and is comfortable speaking to everyone from scientists and engineers (he is fluent in binary) to sales and marketing (after they've had a drink), all the way to the C-Level Executives (as long as their APB's explain the jokes to them).</p></li><li><p>Robert does a culture interview with your&nbsp;team to learn about your company's achievements, culture, and quirks/gossip. Then, he personalizes the humor so that it feels truly special for your guests.</p></li><li><p>He is a master of improv! He reads the room and finds the humor that is unique and special about your group. Everyone is on the edge of their seats and truly invested in the outcome because the entire audience gets to participate and be the stars of the show.&nbsp;</p></li></ol><p><strong>How does hiring magician Robert Strong benefit corporate events?</strong></p><p>Hiring Robert Strong makes you look great for having the most fun, entertaining, inspiring, and talked about event of the year. Each performance by Robert is bespoke. On your first meeting with him, he will help you define&nbsp;your event goals. Then, he will share ideas from his 30+ years of experience to help you achieve&nbsp;those goals. Robert is easy to work with, so you can relax and attend your own event.</p><p><strong>What type of corporate team building events does Robert lead?</strong></p><p>Robert will meet with you to learn more about your organization and what type of corporate team building activities you’re looking to participate in. After doing a culture interview, he will present some corporate team building ideas and lead the ones that interest your organization most. </p><p>One of the best corporate team building activities Robert leads is README. The goal of the README is to build trust among teammates and help them be effective and efficient communicators. Ideally, you create a culture of aspiration where everyone is working together to achieve the company objectives and develop themselves along the way. Plus, this exercise will require some honest self-reflection, which can boost personal growth.</p><p><strong>How much does a corporate show or team building event with Robert cost?</strong></p><p>Great question, but it all depends on the date, time, show length, location, venue, number of guests, the amount of personalization, and your goals. An hour of close-up magic a mile from his home is not the same price as a 4-day trade show in Las Vegas, which is not the same price as a keynote in New York for 5,000 guests, which is not the same price as a custom built illusion to make your CEO appear on stage in Dubai. So, please provide as much information about your event(s) as possible when contacting Robert.</p><p></p><p><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
+          "html": "<h3><strong>Frequently Asked Questions for Corporate and Team Building Magician Robert Strong:</strong></h3><p class=\"lg\"><strong>Where does Robert live, and&nbsp;where is he willing to travel for&nbsp;events?</strong></p><p>Robert is based in the Bay Area. For half of his events, he happily travels across the country to cities including Las Vegas, New York City, Austin, Los Angeles, Atlanta, Miami, and more. For many of his other events, he travels internationally and has performed in cities like Dubai, London, and Paris. He spent three years doing the Welcome Aboard Show on Carnival, Norwegian, and Disney Cruises and another year performing at theme parks in Singapore and Japan.</p><p class=\"lg\"><strong>What type of magic does Robert perform?</strong></p><p>Robert is a master of many different types of magic, including comedy magic, illusions, close-up magic, mind reading, escapes, pick-pocketing,&nbsp;and even juggling. </p><p><strong>But, what differentiates him from other magicians are three things:</strong>\n</p><ol><li><p>Robert researches your company, your solutions, and your guests and then speaks to them in their&nbsp;lingo. He lives in the heart of Silicon Valley and is comfortable speaking to everyone from scientists and engineers (he is fluent in binary) to sales and marketing (after they've had a drink), all the way to the C-Level Executives (as long as their APB's explain the jokes to them).</p></li><li><p>Robert does a culture interview with your&nbsp;team to learn about your company's achievements, culture, and quirks/gossip. Then, he personalizes the humor so that it feels truly special for your guests.</p></li><li><p>He is a master of improv! He reads the room and finds the humor that is unique and special about your group. Everyone is on the edge of their seats and truly invested in the outcome because the entire audience gets to participate and be the stars of the show.&nbsp;</p></li></ol><p class=\"lg\"><strong>How does hiring magician Robert Strong benefit corporate events?</strong></p><p>Hiring Robert Strong makes you look great for having the most fun, entertaining, inspiring, and talked about event of the year. Each performance by Robert is bespoke. On your first meeting with him, he will help you define&nbsp;your event goals. Then, he will share ideas from his 30+ years of experience to help you achieve&nbsp;those goals. Robert is easy to work with, so you can relax and attend your own event.</p><p class=\"lg\"><strong>What type of corporate team building events does Robert lead?</strong></p><p>Robert will meet with you to learn more about your organization and what type of corporate team building activities you’re looking to participate in. After doing a culture interview, he will present some corporate team building ideas and lead the ones that interest your organization most. </p><p>One of the best corporate team building activities Robert leads is README. The goal of the README is to build trust among teammates and help them be effective and efficient communicators. Ideally, you create a culture of aspiration where everyone is working together to achieve the company objectives and develop themselves along the way. Plus, this exercise will require some honest self-reflection, which can boost personal growth.</p><p class=\"lg\"><strong>How much does a corporate show or team building event with Robert cost?</strong></p><p>Great question, but it all depends on the date, time, show length, location, venue, number of guests, the amount of personalization, and your goals. An hour of close-up magic a mile from his home is not the same price as a 4-day trade show in Las Vegas, which is not the same price as a keynote in New York for 5,000 guests, which is not the same price as a custom built illusion to make your CEO appear on stage in Dubai. So, please provide as much information about your event(s) as possible when contacting Robert.</p><p></p><p class=\"lg\"><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
         }
       ]
     },

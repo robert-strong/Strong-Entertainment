@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>Robert Strong's Keynote </strong><span class=\"c-red\"><strong>Empowers Businesses to Achieve </strong></span><strong>Magical Results.</strong></h1>"
+          "html": "<h1 class=\"ta-c\"><strong>Robert Strong's Keynote </strong><span class=\"c-red\"><strong>Empowers Businesses to Achieve </strong></span><strong>Magical Results.</strong></h1>"
         },
         {
           "type": "text",
-          "html": "<h2>Corporate <span class=\"c-red\">Keynote Speaker,</span> Award-Winning <span class=\"c-red\">Magician,</span> and Bestselling <span class=\"c-red\">Author</span></h2>"
+          "html": "<h2 class=\"ta-c\">Corporate <span class=\"c-red\">Keynote Speaker,</span> Award-Winning <span class=\"c-red\">Magician,</span> and Bestselling <span class=\"c-red\">Author</span></h2>"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><span class=\"c-red\"><strong>See some of the Companies who trust Robert Strong</strong></span><span class=\"c-white\"><strong> to entertain their executives, teams, and customers:</strong></span></p>"
+          "html": "<p class=\"lg ta-c\"><span class=\"c-red\"><strong>See some of the Companies who trust Robert Strong</strong></span><span class=\"c-white\"><strong> to entertain their executives, teams, and customers:</strong></span></p>"
         },
         {
           "type": "logos"
@@ -43,7 +43,7 @@
         },
         {
           "type": "text",
-          "html": "<h2><span class=\"c-black\"><strong>Robert Strong’s Keynote Called “Creating Magic in the World” </strong></span><span class=\"c-red\"><strong>Empowers Your Audience</strong></span><span class=\"c-black\"><strong> to:</strong></span></h2><ul><li><p><span class=\"c-black\"><strong>Create memorable experiences </strong>that connect people.</span></p></li><li><p><span class=\"c-black\"><strong>Get customers </strong>excited about your solutions.</span></p></li><li><p><span class=\"c-black\"><strong>Grab attention </strong>and deliver captivating presentations.</span></p></li><li><p><span class=\"c-black\"><strong>Develop a workplace culture</strong> that people love.</span></p></li><li><p><span class=\"c-black\"><strong>Craft amazing stories </strong>that delight.</span></p></li></ul>"
+          "html": "<h2><span class=\"c-black\"><strong>Robert Strong’s Keynote Called “Creating Magic in the World” </strong></span><span class=\"c-red\"><strong>Empowers Your Audience</strong></span><span class=\"c-black\"><strong> to:</strong></span></h2><ul><li><p class=\"lg\"><span class=\"c-black\"><strong>Create memorable experiences </strong>that connect people.</span></p></li><li><p class=\"lg\"><span class=\"c-black\"><strong>Get customers </strong>excited about your solutions.</span></p></li><li><p class=\"lg\"><span class=\"c-black\"><strong>Grab attention </strong>and deliver captivating presentations.</span></p></li><li><p class=\"lg\"><span class=\"c-black\"><strong>Develop a workplace culture</strong> that people love.</span></p></li><li><p class=\"lg\"><span class=\"c-black\"><strong>Craft amazing stories </strong>that delight.</span></p></li></ul>"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><span class=\"c-light\"><strong>Why is Robert Strong </strong></span><span class=\"c-red\"><strong>Silicon Valley's Best</strong></span><span class=\"c-white\"><strong> Keynote Speaker and Entertainer?</strong></span></h2><p><span class=\"c-white\">Robert's specialty is creating </span><span class=\"c-red\"><strong>bespoke business keynotes</strong></span><span class=\"c-white\"> and workshops </span><span class=\"c-red\"><strong>that</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>speak to the story of your organization</strong></span><span class=\"c-white\"> and its culture.</span></p><p><span class=\"c-red\"><strong>He engages your guests </strong></span><span class=\"c-white\">with</span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\">the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</span></p><p><span class=\"c-white\">Robert </span><span class=\"c-red\"><strong>blends comedy, magic, and storytelling</strong></span><span class=\"c-white\"> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</span></p><p><span class=\"c-white\">Robert has a </span><span class=\"c-red\"><strong>flawless 35+ year track record</strong></span><span class=\"c-white\"> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</span></p>"
+          "html": "<h2><span class=\"c-light\"><strong>Why is Robert Strong </strong></span><span class=\"c-red\"><strong>Silicon Valley's Best</strong></span><span class=\"c-white\"><strong> Keynote Speaker and Entertainer?</strong></span></h2><p class=\"lg\"><span class=\"c-white\">Robert's specialty is creating </span><span class=\"c-red\"><strong>bespoke business keynotes</strong></span><span class=\"c-white\"> and workshops </span><span class=\"c-red\"><strong>that</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>speak to the story of your organization</strong></span><span class=\"c-white\"> and its culture.</span></p><p class=\"lg\"><span class=\"c-red\"><strong>He engages your guests </strong></span><span class=\"c-white\">with</span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\">the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</span></p><p class=\"lg\"><span class=\"c-white\">Robert </span><span class=\"c-red\"><strong>blends comedy, magic, and storytelling</strong></span><span class=\"c-white\"> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</span></p><p class=\"lg\"><span class=\"c-white\">Robert has a </span><span class=\"c-red\"><strong>flawless 35+ year track record</strong></span><span class=\"c-white\"> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</span></p>"
         }
       ],
       "background": "/assets/images/website-homepage-hero-image-white-bar.png",
@@ -81,7 +81,7 @@
           "type": "image",
           "src": "/assets/images/business-keynote-speaker-robert-strong-with-book-amaze-and-delight.png",
           "alt": "",
-          "width": 350
+          "width": 408
         },
         {
           "type": "button",
@@ -95,7 +95,7 @@
         },
         {
           "type": "text",
-          "html": "<p>Robert’s book<strong>\n</strong><a href=\"/amaze-and-delight\"><strong><em>Amaze &amp; Delight</em></strong></a> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p>Robert demonstrates how the secrets to his success as an entertainer and magician can become impactful business tools.</p><p>Drawing from an entire lifetime of captivating audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.</p><p>You’ll enjoy illuminating stories from Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
+          "html": "<p class=\"lg\">Robert’s book<strong>\n</strong><a href=\"/amaze-and-delight\"><strong><em>Amaze &amp; Delight</em></strong></a> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p class=\"lg\">Robert demonstrates how the secrets to his success as an entertainer and magician can become impactful business tools.</p><p class=\"lg\">Drawing from an entire lifetime of captivating audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.</p><p class=\"lg\">You’ll enjoy illuminating stories from Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
         }
       ]
     },
@@ -108,39 +108,39 @@
         },
         {
           "type": "text",
-          "html": "<h3> TEDx San Francisco, 2019</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2019</h3>"
         },
         {
           "type": "video",
           "youtubeId": "5gchZMjRfL8",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3> TEDx San Francisco, 2017</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2017</h3>"
         },
         {
           "type": "video",
           "youtubeId": "TfIR8TaWrnM",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>Penn &amp; Teller Fool Us</h3>"
+          "html": "<h3 class=\"ta-c\">Penn &amp; Teller Fool Us</h3>"
         },
         {
           "type": "video",
           "youtubeId": "C8IFFrylpwU",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<h3>TEDx Palo Alto, 2019</h3>"
+          "html": "<h3 class=\"ta-c\">TEDx Palo Alto, 2019</h3>"
         },
         {
           "type": "video",
           "youtubeId": "HXyoWubMZXI",
-          "width": 600
+          "width": 700
         }
       ]
     },
@@ -200,7 +200,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Frequently Asked Questions for Keynote Speaker Robert Strong:</strong></h3><p><strong>Who has Robert spoken to in the past?</strong></p><p>Robert has worked with a variety of well-known companies and brands including Google, Amazon, Meta, LinkedIn, Stanford, Genentech, Kaiser Permanente, the Smithsonian, and Amazon. Robert is a sought-after keynote speaker for high-performing business leaders and companies with emerging technologies. He’s an expert at bringing together many different groups of people with his inspirational talks and his motivational team-building workshops.</p><p><strong>How does Robert encourage audience engagement as an event speaker?</strong></p><p>By getting to know each of his clients, Robert customizes every event to promote employee engagement. He gets everyone to participate in small groups through storytelling exercises and even teaches everyone a magic trick that they can do to make their next presentation amazing and memorable. Robert's charisma, public speaking skills, and expertise as a magician will amaze your audience and make your event a hit. </p><p><strong>How do I hire Robert Strong for my event?</strong></p><p>You can find Robert's contact information below! Send him an email with as much information about your event as possible, then schedule a call to review your event goals and your audience. Be sure to ask for a demo over Zoom for you and your team, and then Robert will send a proposal for you to consider. </p><p><strong>What if Robert is unavailable or not the perfect fit for my event?</strong></p><p>Robert knows he is not always the perfect fit for every event, so if you like working with him but want something a little different, let him know that, too. He has been a professional entertainer for almost four decades and knows all the best speakers, comedians, and magicians. He would happily find someone amazing and delightful from his roster to make your event a hit with your attendees.</p><p></p><p><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
+          "html": "<h3><strong>Frequently Asked Questions for Keynote Speaker Robert Strong:</strong></h3><p class=\"lg\"><strong>Who has Robert spoken to in the past?</strong></p><p>Robert has worked with a variety of well-known companies and brands including Google, Amazon, Meta, LinkedIn, Stanford, Genentech, Kaiser Permanente, the Smithsonian, and Amazon. Robert is a sought-after keynote speaker for high-performing business leaders and companies with emerging technologies. He’s an expert at bringing together many different groups of people with his inspirational talks and his motivational team-building workshops.</p><p class=\"lg\"><strong>How does Robert encourage audience engagement as an event speaker?</strong></p><p>By getting to know each of his clients, Robert customizes every event to promote employee engagement. He gets everyone to participate in small groups through storytelling exercises and even teaches everyone a magic trick that they can do to make their next presentation amazing and memorable. Robert's charisma, public speaking skills, and expertise as a magician will amaze your audience and make your event a hit. </p><p class=\"lg\"><strong>How do I hire Robert Strong for my event?</strong></p><p>You can find Robert's contact information below! Send him an email with as much information about your event as possible, then schedule a call to review your event goals and your audience. Be sure to ask for a demo over Zoom for you and your team, and then Robert will send a proposal for you to consider. </p><p class=\"lg\"><strong>What if Robert is unavailable or not the perfect fit for my event?</strong></p><p>Robert knows he is not always the perfect fit for every event, so if you like working with him but want something a little different, let him know that, too. He has been a professional entertainer for almost four decades and knows all the best speakers, comedians, and magicians. He would happily find someone amazing and delightful from his roster to make your event a hit with your attendees.</p><p></p><p class=\"lg\"><strong>Contact him now to discuss how to make your event spectacular!</strong></p>"
         }
       ]
     },

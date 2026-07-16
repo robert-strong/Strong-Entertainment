@@ -14,14 +14,14 @@
           "type": "image",
           "src": "/assets/images/amaze-and-delight-robert-strong-book-cover.png",
           "alt": "",
-          "width": 600
+          "width": 700
         },
         {
           "type": "image",
           "src": "/assets/images/buy-on-amazon-button-for-amaze-and-delight.png",
           "alt": "Order now at amazon.com button for book Amaze & Delight.",
           "href": "https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38",
-          "width": 450
+          "width": 525
         }
       ]
     },
@@ -91,7 +91,7 @@
           "type": "image",
           "src": "/assets/images/author-robert-strong-holding-amaze-in-delight-in-front-of-bookstore.png",
           "alt": "",
-          "width": 450
+          "width": 525
         },
         {
           "type": "text",
@@ -108,7 +108,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>65+ </strong><span class=\"c-red\"><strong>Five-Star</strong></span><strong> Reviews on Amazon</strong></h3>"
+          "html": "<h3 class=\"ta-c\"><strong>65+ </strong><span class=\"c-red\"><strong>Five-Star</strong></span><strong> Reviews on Amazon</strong></h3>"
         }
       ]
     },
@@ -127,7 +127,7 @@
           "type": "image",
           "src": "/assets/images/robert-strong-during-comedy-legend-fireside-chat.png",
           "alt": "",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
@@ -140,17 +140,17 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><span class=\"c-red\"><strong>Team-Building</strong></span><strong> Workshops</strong></h3>"
+          "html": "<h3 class=\"ta-c\"><span class=\"c-red\"><strong>Team-Building</strong></span><strong> Workshops</strong></h3>"
         },
         {
           "type": "image",
           "src": "/assets/images/author-robert-strong-leading-a-team-building-workshop-on-stage.png",
           "alt": "Robert Strong leading a team building exercise between three audience members on stage.",
-          "width": 600
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p>If you’d like best-selling Amazon author Robert Strong to share his book’s highly valuable and entertaining business wisdom directly with your team, contact him for information about the many <a href=\"/corporate-team-building-magician\"><strong>professional workshops</strong></a> that he offers.</p><p>Exemplifying the best-practices detailed in his hit book, Robert will customize the keynote, magic show, or workshop to your organization. He’ll incorporate your messaging, culture, or desired outcomes into the experience so it feels relatable and actionable to your audience.</p><p>His fun and interactive workshops are designed to help your team connect, communicate, amaze, delight, and create real magic in the world (in practical and sustainable ways).</p><p>You won’t need to read the book ahead of time because Robert is an entertaining, one-man-tome of business wisdom! As part of the event, Robert will also provide everyone in attendance with a signed copy of Amaze &amp; Delight: Secrets to Creating Magic in Business.</p><p><a href=\"/#contact\"><strong>\n</strong></a></p>"
+          "html": "<p>If you’d like best-selling Amazon author Robert Strong to share his book’s highly valuable and entertaining business wisdom directly with your team, contact him for information about the many <a href=\"/corporate-team-building-magician\"><strong>professional workshops</strong></a> that he offers.</p><p>Exemplifying the best-practices detailed in his hit book, Robert will customize the keynote, magic show, or workshop to your organization. He’ll incorporate your messaging, culture, or desired outcomes into the experience so it feels relatable and actionable to your audience.</p><p>His fun and interactive workshops are designed to help your team connect, communicate, amaze, delight, and create real magic in the world (in practical and sustainable ways).</p><p>You won’t need to read the book ahead of time because Robert is an entertaining, one-man-tome of business wisdom! As part of the event, Robert will also provide everyone in attendance with a signed copy of Amaze &amp; Delight: Secrets to Creating Magic in Business.</p><p class=\"lg\"><a href=\"/#contact\"><strong>\n</strong></a></p>"
         }
       ]
     },
@@ -163,19 +163,23 @@
           "images": [
             {
               "src": "/assets/images/robert-strong-with-shane-legg-and-walter-de-brouwer.jpeg",
-              "alt": "Robert with Co-Founder of DeepMind Shane Legg (right) & former CEO of doc.ai Walter DeBrouwer (left). "
+              "alt": "Robert with Co-Founder of DeepMind Shane Legg (right) & former CEO of doc.ai Walter DeBrouwer (left). ",
+              "caption": "Robert with Co-Founder of DeepMind Shane Legg (right) & former CEO of doc.ai Walter DeBrouwer (left)."
             },
             {
               "src": "/assets/images/amaze-and-delight-on-display-in-a-bookstore.jpeg",
-              "alt": "Amaze & Delight on display in a bookstore."
+              "alt": "Amaze & Delight on display in a bookstore.",
+              "caption": "Amaze & Delight on display in a bookstore."
             },
             {
               "src": "/assets/images/robert-strong-and-david-martinez-with-siri-cofounder-adam-cheyer.jpeg",
-              "alt": "Robert Strong (left) & David Martinez (middle) are pictured with Siri co-founder Adam Cheyer (right)."
+              "alt": "Robert Strong (left) & David Martinez (middle) are pictured with Siri co-founder Adam Cheyer (right).",
+              "caption": "Robert Strong (left) & David Martinez (middle) are pictured with Siri co-founder Adam Cheyer (right)."
             },
             {
               "src": "/assets/images/robert-strong-with-parag-agrawal-former-twitter-ceo.jpeg",
-              "alt": "Robert Strong with Parag Agrawal, former CEO of Twitter."
+              "alt": "Robert Strong with Parag Agrawal, former CEO of Twitter.",
+              "caption": "Robert Strong with Parag Agrawal, former CEO of Twitter."
             }
           ]
         }
@@ -186,7 +190,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Frequently Asked Questions About </strong><span class=\"c-red\"><strong>Amaze &amp; Delight:</strong></span></h3><p><strong>Who are the authors?</strong></p><p><strong>Robert Strong</strong> is a magician and speaker who has been voted San Francisco’s \"Best Magician\" twice and \"Best Comedian\" three times. He has performed in 50 countries, all 50 states, and twice at the White House. </p><p><strong>David Martinez</strong> had a 30-year career in marketing for high-tech companies, including 17 years at Apple, before pursuing a full-time career as a magician and speaker. </p><p><strong>Where can I buy <em>Amaze &amp; Delight</em>?</strong></p><p>You can buy <em>Amaze &amp; Delight</em> on <a href=\"https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38\"><strong>Amazon</strong></a>, where it has a perfect five-star rating with 65+ reviews.</p><p><strong>Who is <em>Amaze &amp; Delight </em>perfect for?</strong></p><p>The book is recommended and read by C-suite executives, experts, and authorities across all industries. The forward is written by Siri co-creator Adam Cheyer, who says, “I hope you read this book, take away new perspectives and ideas, dream big magical dreams about business or personal growth, and then work hard to turn your visions into reality.”</p><p>This book is perfect for anyone who wants to know how to prepare and deliver engaging presentations, how to run meetings that make attendees glad they were invited, how to build a psychologically safe work environment where the team can share their ideas honestly, and how to create a workplace culture that people love.</p>"
+          "html": "<h3><strong>Frequently Asked Questions About </strong><span class=\"c-red\"><strong>Amaze &amp; Delight:</strong></span></h3><p class=\"lg\"><strong>Who are the authors?</strong></p><p><strong>Robert Strong</strong> is a magician and speaker who has been voted San Francisco’s \"Best Magician\" twice and \"Best Comedian\" three times. He has performed in 50 countries, all 50 states, and twice at the White House. </p><p><strong>David Martinez</strong> had a 30-year career in marketing for high-tech companies, including 17 years at Apple, before pursuing a full-time career as a magician and speaker. </p><p class=\"lg\"><strong>Where can I buy <em>Amaze &amp; Delight</em>?</strong></p><p>You can buy <em>Amaze &amp; Delight</em> on <a href=\"https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38\"><strong>Amazon</strong></a>, where it has a perfect five-star rating with 65+ reviews.</p><p class=\"lg\"><strong>Who is <em>Amaze &amp; Delight </em>perfect for?</strong></p><p>The book is recommended and read by C-suite executives, experts, and authorities across all industries. The forward is written by Siri co-creator Adam Cheyer, who says, “I hope you read this book, take away new perspectives and ideas, dream big magical dreams about business or personal growth, and then work hard to turn your visions into reality.”</p><p>This book is perfect for anyone who wants to know how to prepare and deliver engaging presentations, how to run meetings that make attendees glad they were invited, how to build a psychologically safe work environment where the team can share their ideas honestly, and how to create a workplace culture that people love.</p>"
         }
       ]
     },
