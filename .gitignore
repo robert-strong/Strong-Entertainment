@@ -10,3 +10,6 @@ Strong Entertainment *_files/
 .env
 .env.*
 .vercel
+
+.vercel
+.env*.local
