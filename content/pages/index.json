@@ -1,6 +1,5 @@
 {
   "slug": "",
-  "navLabel": "Home",
   "title": "Hire a funny, motivational magic keynote speaker for corporate events and conferences",
   "description": "See Why Google, LinkedIn, Stanford, TED Trust Comedy Magician Robert Strong to Entertain Their Executives, Teams, & Customers. He Creates Amazing & Memorable Experiences That Connect People.",
   "sections": [
@@ -16,7 +15,8 @@
           "html": "<h3>Speaker, Comedy Magician, &amp; Author</h3>"
         }
       ],
-      "background": "/assets/images/robert-strong-comedy-magician.png"
+      "background": "/assets/images/robert-strong-comedy-magician.png",
+      "overlay": 0
     },
     {
       "theme": "white",
@@ -32,7 +32,7 @@
               "html": "<p><strong>Inspire your guests</strong> and empower them to create real change through Robert’s bespoke keynote.</p>"
             },
             {
-              "image": "/assets/images/comedian-magician-robert-strong-speaking-to-a-crowd-5b12117d.jpg",
+              "image": "/assets/images/comedian-magician-robert-strong-speaking-to-a-crowd-c0428c9b.jpg",
               "alt": "Comedian magician Robert Strong performing magic in front of a piano in a tuxedo.",
               "title": "Magician & Emcee",
               "href": "/san-francisco-bay-area-magician",
@@ -73,7 +73,8 @@
         {
           "type": "image",
           "src": "/assets/images/comedian-magician-robert-strong-smiling-with-book-amaze-and-delight.jpeg",
-          "alt": "Comedian magician Robert Strong smiling with his book Amaze & Delight."
+          "alt": "Comedian magician Robert Strong smiling with his book Amaze & Delight.",
+          "width": 300
         },
         {
           "type": "button",
@@ -101,11 +102,12 @@
         {
           "type": "image",
           "src": "/assets/images/comedy-magician-robert-strong-in-suit-doing-card-spring.jpeg",
-          "alt": "Comedy magician Robert Strong in a suit doing a card spring."
+          "alt": "Comedy magician Robert Strong in a suit doing a card spring.",
+          "width": 400
         },
         {
           "type": "text",
-          "html": "<p>Robert has performed for most of the Fortune 500 companies, in all 50 states, in 50 different countries, on every major TV network, and twice at the White House. Combining speaking, comedy, magic, and real practical business takeaways, Robert Strong will make your corporate event so memorable that your team members will talk about it for years! After performing for 10,000+ happy audiences, it’s no wonder why Robert knows exactly how to make your event unforgettable.</p><p>In addition to keynote speaking, Robert is a world-renowned comedy magician, <a href=\"/trade-show-magician\"><strong>trade show presenter</strong></a>, master of ceremonies, and bestselling author of <a href=\"/amaze-and-delight\"><strong>Amaze &amp; Delight: Secrets to Creating Magic in Business</strong></a>. Robert is also the founder and CEO of <a href=\"https://speakabout.ai/\"><strong>Speak About AI</strong></a>, a bureau for business keynote speakers and thought leaders on the cutting edge of artificial intelligence. </p>"
+          "html": "<p>Robert has performed for most of the Fortune 500 companies, in all 50 states, in 50 different countries, on every major TV network, and twice at the White House. Combining speaking, comedy, magic, and real practical business takeaways, Robert Strong will make your corporate event so memorable that your team members will talk about it for years! After performing for 10,000+ happy audiences, it’s no wonder why Robert knows exactly how to make your event unforgettable.</p><p>In addition to keynote speaking, Robert is a world-renowned comedy magician, <a href=\"/trade-show-magician\"><strong>trade show presenter</strong></a>, master of ceremonies, and bestselling author of <a href=\"/amaze-and-delight\"><strong>Amaze &amp; Delight: Secrets to Creating Magic in Business</strong></a>. Robert is also the founder and CEO of <a href=\"https://speakabout.ai\"><strong>Speak About AI</strong></a>, a bureau for business keynote speakers and thought leaders on the cutting edge of artificial intelligence. </p>"
         }
       ]
     },
@@ -122,7 +124,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "5gchZMjRfL8"
+          "youtubeId": "5gchZMjRfL8",
+          "width": 600
         },
         {
           "type": "text",
@@ -130,7 +133,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "5I7VxaVS-es"
+          "youtubeId": "5I7VxaVS-es",
+          "width": 600
         },
         {
           "type": "text",
@@ -138,7 +142,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "C8IFFrylpwU"
+          "youtubeId": "C8IFFrylpwU",
+          "width": 600
         }
       ]
     },
@@ -152,7 +157,8 @@
         {
           "type": "image",
           "src": "/assets/images/robert-strong-corporate-comedy-magician-san-francisco-rubicks-cube.jpg",
-          "alt": "Comedy magician Robert Strong performing a trick with two Rubik's Cubes."
+          "alt": "Comedy magician Robert Strong performing a trick with two Rubik's Cubes.",
+          "width": 200
         },
         {
           "type": "text",

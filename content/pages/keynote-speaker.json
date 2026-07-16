@@ -1,6 +1,5 @@
 {
   "slug": "keynote-speaker",
-  "navLabel": "Speaker",
   "title": "Award Winning Business Keynote Speaker & World Class Magician Robert Strong",
   "description": "Corporate Keynote Speaker, Award-Winning Magician, and Bestselling Author Robert Strong Inspires Your Attendees To Create Magic in The World!",
   "sections": [
@@ -56,7 +55,8 @@
           "html": "<h2><strong>Why is Robert Strong </strong><strong>Silicon Valley's Best</strong><strong> Keynote Speaker and Entertainer?</strong></h2><p>Robert's specialty is creating <strong>bespoke business keynotes</strong> and workshops <strong>that</strong>\n<strong>speak to the story of your organization</strong> and its culture.</p><p><strong>He engages your guests </strong>with<strong>\n</strong>the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</p><p>Robert <strong>blends comedy, magic, and storytelling</strong> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</p><p>Robert has a <strong>flawless 35+ year track record</strong> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</p>"
         }
       ],
-      "background": "/assets/images/website-homepage-hero-image-white-bar.png"
+      "background": "/assets/images/website-homepage-hero-image-white-bar.png",
+      "overlay": 0.15
     },
     {
       "theme": "light",
@@ -80,7 +80,8 @@
         {
           "type": "image",
           "src": "/assets/images/business-keynote-speaker-robert-strong-with-book-amaze-and-delight.png",
-          "alt": ""
+          "alt": "",
+          "width": 350
         },
         {
           "type": "button",
@@ -111,7 +112,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "5gchZMjRfL8"
+          "youtubeId": "5gchZMjRfL8",
+          "width": 600
         },
         {
           "type": "text",
@@ -119,7 +121,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "TfIR8TaWrnM"
+          "youtubeId": "TfIR8TaWrnM",
+          "width": 600
         },
         {
           "type": "text",
@@ -127,7 +130,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "C8IFFrylpwU"
+          "youtubeId": "C8IFFrylpwU",
+          "width": 600
         },
         {
           "type": "text",
@@ -135,7 +139,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "HXyoWubMZXI"
+          "youtubeId": "HXyoWubMZXI",
+          "width": 600
         }
       ]
     },
@@ -144,7 +149,24 @@
       "blocks": [
         {
           "type": "gallery",
+          "variant": "slideshow",
           "images": [
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review1.png",
+              "alt": "keynote-speaker-robert-strong-review1.png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review2.png",
+              "alt": "keynote-speaker-robert-strong-review2.png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review3.png",
+              "alt": "keynote-speaker-robert-strong-review3.png"
+            },
+            {
+              "src": "/assets/images/adam-cheyer-speaker-review-1-.png",
+              "alt": "adam-cheyer-speaker-review (1).png"
+            },
             {
               "src": "/assets/images/keynote-speaker-robert-strong-review5.png",
               "alt": "keynote-speaker-robert-strong-review5.png"
@@ -164,6 +186,10 @@
             {
               "src": "/assets/images/adam-cheyer-speaker-review-1-.png",
               "alt": "adam-cheyer-speaker-review (1).png"
+            },
+            {
+              "src": "/assets/images/keynote-speaker-robert-strong-review5.png",
+              "alt": "keynote-speaker-robert-strong-review5.png"
             }
           ]
         }

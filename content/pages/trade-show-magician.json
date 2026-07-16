@@ -1,6 +1,5 @@
 {
   "slug": "trade-show-magician",
-  "navLabel": "Trade Shows",
   "title": "This Trade Show Magician Attracts Decision Makers to Your Booth",
   "description": "Looking for New Trade Show Booth Ideas? Experience the Magic of a Packed Booth & Thousands of Qualified Leads with Expert Trade Show Magician Robert Strong.",
   "sections": [
@@ -18,7 +17,7 @@
         {
           "type": "button",
           "text": "Contact",
-          "href": "/trade-show-magician#contact"
+          "href": "#contact"
         }
       ],
       "backgroundVideo": "/assets/videos/trade-show-clip.mp4"
@@ -46,7 +45,8 @@
         {
           "type": "image",
           "src": "/assets/images/trade-show-magician-robert-strong-making-card-float.png",
-          "alt": "Trade show magician Robert Strong in a suit making a card float between his hands."
+          "alt": "Trade show magician Robert Strong in a suit making a card float between his hands.",
+          "width": 600
         }
       ]
     },
@@ -55,13 +55,14 @@
       "blocks": [
         {
           "type": "gallery",
+          "variant": "grid",
           "images": [
             {
               "src": "/assets/images/trade-show-booth-without-trade-show-magician-robert-strong-versus-with-robert-strong.jpg",
               "alt": "Robert attracts massive crowds at tons of trade shows in the USA."
             },
             {
-              "src": "/assets/images/-1-trade-show-magician-robert-strong-at-a-trade-show-booth-1-.jpeg",
+              "src": "/assets/images/-1-trade-show-magician-robert-strong-at-a-trade-show-booth.jpeg",
               "alt": "Robert Strong is the #1 magician for trade show booths."
             },
             {
@@ -94,20 +95,24 @@
         {
           "type": "image",
           "src": "/assets/images/watch-the-magic.png",
-          "alt": "The text, \"Watch The Magic\" With an arrow."
+          "alt": "The text, \"Watch The Magic\" With an arrow.",
+          "width": 250
         },
         {
           "type": "video",
-          "youtubeId": "5ae62hJBn20"
+          "youtubeId": "5ae62hJBn20",
+          "width": 450
         },
         {
           "type": "image",
           "src": "/assets/images/see-robert-in-action.png",
-          "alt": "Text reading \"See Robert in Action\" with an arrow pointing to the video."
+          "alt": "Text reading \"See Robert in Action\" with an arrow pointing to the video.",
+          "width": 200
         },
         {
           "type": "video",
-          "youtubeId": "QZTjfl3RQqQ"
+          "youtubeId": "QZTjfl3RQqQ",
+          "width": 450
         }
       ]
     },

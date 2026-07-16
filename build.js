@@ -35,13 +35,14 @@ const render = {
     const img = `<img src="${esc(b.src)}" alt="${esc(b.alt)}" loading="lazy">`;
     const inner = b.href ? `<a href="${esc(b.href)}">${img}</a>` : img;
     const cap = b.caption ? `<figcaption>${esc(b.caption)}</figcaption>` : '';
-    return `<figure class="img-block">${inner}${cap}</figure>`;
+    const style = b.width ? ` style="max-width:${b.width}px"` : '';
+    return `<figure class="img-block"${style}>${inner}${cap}</figure>`;
   },
 
   button: b => `<a class="btn" href="${esc(b.href)}">${esc(b.text)}</a>`,
 
   video: b => `
-    <div class="video-wrap">
+    <div class="video-wrap"${b.width ? ` style="max-width:${b.width}px"` : ''}>
       <iframe src="https://www.youtube-nocookie.com/embed/${esc(b.youtubeId)}" title="YouTube video"
         loading="lazy" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -63,10 +64,12 @@ const render = {
       </details>`).join('')}
     </div>`,
 
-  gallery: b => `
-    <div class="gallery">
-      ${b.images.map(i => `<figure><img src="${esc(i.src)}" alt="${esc(i.alt)}" loading="lazy"></figure>`).join('')}
-    </div>`,
+  gallery: b => {
+    const items = b.images.map(i => `<figure><img src="${esc(i.src)}" alt="${esc(i.alt)}" loading="lazy"></figure>`).join('');
+    return b.variant === 'slideshow' || b.variant === 'strip' || b.variant === 'reel'
+      ? `<div class="gallery gallery--strip">${items}</div>`
+      : `<div class="gallery">${items}</div>`;
+  },
 
   cards: b => `
     <div class="cards">
@@ -83,6 +86,7 @@ const render = {
 
   divider: () => '<hr class="divider">',
   anchor: b => `<span id="${esc(b.id)}" class="anchor"></span>`,
+  _raw: b => b.html,
 };
 
 function marquee(img, label, height, reverse) {
@@ -93,17 +97,49 @@ function marquee(img, label, height, reverse) {
 }
 
 function renderBlocks(blocks) {
-  // group consecutive buttons into a row
-  const out = [];
-  let btnRun = [];
-  const flush = () => {
-    if (btnRun.length) {
-      out.push(`<div class="btn-row">${btnRun.map(render.button).join('')}</div>`);
-      btnRun = [];
+  // Pre-pass: fold alternating [caption-text, small video/image] pairs (2+ in a row)
+  // into captioned grid cells, matching the live site's multi-column media grids.
+  const isSmallMedia = b => !!b && (b.type === 'video' || b.type === 'image') && b.width && b.width <= 640;
+  const isCaption = b => !!b && b.type === 'text' && (b.html || '').length < 400;
+  const folded = [];
+  for (let i = 0; i < blocks.length;) {
+    if (isCaption(blocks[i]) && isSmallMedia(blocks[i + 1]) &&
+        isCaption(blocks[i + 2]) && isSmallMedia(blocks[i + 3])) {
+      const cells = [];
+      while (isCaption(blocks[i]) && isSmallMedia(blocks[i + 1])) {
+        cells.push(`<div class="media-cell">${render.text(blocks[i])}${render[blocks[i + 1].type](blocks[i + 1])}</div>`);
+        i += 2;
+      }
+      folded.push({ type: '_raw', html: `<div class="media-grid">${cells.join('')}</div>` });
+      continue;
     }
+    folded.push(blocks[i]);
+    i++;
+  }
+  blocks = folded;
+
+  // group runs of consecutive same-type blocks so side-by-side layouts survive:
+  // buttons -> .btn-row; small images -> .img-row; small videos -> .video-grid
+  const out = [];
+  let run = [], runKind = null;
+  const isSmallImg = b => b.type === 'image' && b.width && b.width <= 520;
+  const isSmallVid = b => b.type === 'video' && b.width && b.width <= 640;
+  const kindOf = b => b.type === 'button' ? 'btn' : isSmallImg(b) ? 'img' : isSmallVid(b) ? 'vid' : null;
+  const flush = () => {
+    if (!run.length) return;
+    const inner = run.map(b => render[b.type](b)).join('');
+    if (runKind === 'btn') out.push(`<div class="btn-row">${inner}</div>`);
+    else if (run.length > 1) out.push(`<div class="${runKind === 'img' ? 'img-row' : 'video-grid'}">${inner}</div>`);
+    else out.push(inner);
+    run = []; runKind = null;
   };
   for (const b of blocks) {
-    if (b.type === 'button') { btnRun.push(b); continue; }
+    const k = kindOf(b);
+    if (k) {
+      if (runKind && runKind !== k) flush();
+      runKind = k; run.push(b);
+      continue;
+    }
     flush();
     const fn = render[b.type];
     if (fn) out.push(fn(b));
@@ -121,9 +157,10 @@ function renderSection(sec) {
     <video class="hero-video" autoplay muted loop playsinline preload="metadata"${sec.background ? ` poster="${esc(sec.background)}"` : ''}>
       <source src="${esc(sec.backgroundVideo)}" type="video/mp4">
     </video>` : '';
+    const overlayStyle = sec.overlay != null ? ` style="background:rgba(10,10,10,${Math.min(0.85, sec.overlay + 0.2)})"` : '';
     return `
   <section class="sec sec--hero"${id}${bgStyle}>${video}
-    <div class="hero-overlay"></div>
+    <div class="hero-overlay"${overlayStyle}></div>
     <div class="container hero-content">
       ${renderBlocks(sec.blocks)}
     </div>
@@ -215,7 +252,7 @@ function pageHtml(page) {
   <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>

@@ -1,6 +1,5 @@
 {
   "slug": "corporate-team-building-magician",
-  "navLabel": "Team Building",
   "title": "Fun Team Building Activities/Exercises with Corporate Magician Robert Strong",
   "description": "Connecting Your Team Through Play is Fun with Corporate Magician Robert Strong. He Leads In-Person & Remote Team Building for Google, LinkedIn, Microsoft, & more.",
   "sections": [
@@ -18,7 +17,7 @@
         {
           "type": "button",
           "text": "Contact",
-          "href": "/corporate-team-building-magician#contact"
+          "href": "#contact"
         }
       ],
       "backgroundVideo": "/assets/videos/team-building-intro.mp4"
@@ -61,7 +60,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "9XJ6K04URhA"
+          "youtubeId": "9XJ6K04URhA",
+          "width": 600
         },
         {
           "type": "text",
@@ -69,7 +69,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "kt9iDplOzAM"
+          "youtubeId": "kt9iDplOzAM",
+          "width": 600
         },
         {
           "type": "text",
@@ -77,7 +78,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "8qeUG42vbkg"
+          "youtubeId": "8qeUG42vbkg",
+          "width": 600
         },
         {
           "type": "text",
@@ -85,7 +87,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "YrBb8RnP-F0"
+          "youtubeId": "YrBb8RnP-F0",
+          "width": 600
         },
         {
           "type": "text",
@@ -98,7 +101,24 @@
       "blocks": [
         {
           "type": "gallery",
+          "variant": "grid",
           "images": [
+            {
+              "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-through-magic.jpeg",
+              "alt": "Robert stunning his volunteers as a magician at a corporate event."
+            },
+            {
+              "src": "/assets/images/corporate-magician-robert-strong-pictured-with-company-after-leading-office-team-building-activities.jpg",
+              "alt": "A group of happy attendees after completing The Marshmellow Challenge."
+            },
+            {
+              "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-for-a-large-audience.jpeg",
+              "alt": "A company after Robert led team building activities at a large corporate event."
+            },
+            {
+              "src": "/assets/images/obert-strong-hired-as-magician-for-corporate-event-team-building-activities-.jpg",
+              "alt": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!"
+            },
             {
               "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-through-magic.jpeg",
               "alt": "Robert stunning his volunteers as a magician at a corporate event."

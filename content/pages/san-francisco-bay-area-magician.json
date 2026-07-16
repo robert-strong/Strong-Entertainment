@@ -1,6 +1,5 @@
 {
   "slug": "san-francisco-bay-area-magician",
-  "navLabel": "Magician",
   "title": "Voted San Francisco's Best Magician & Bay Area's Best Comedian",
   "description": "Robert Strong is a San Francisco and Greater Bay Area Magician & Event Emcee Who Wows Audiences With Memorable Experiences That Connect People.",
   "sections": [
@@ -56,14 +55,16 @@
           "html": "<h2><strong>Robert</strong><strong> is Different From Other San Francisco Magicians </strong><strong>in Three Ways:</strong></h2><p><strong>1.</strong> Robert has <strong>35+ years of experience</strong>\n<strong>performing magic</strong> across the San Francisco Bay Area and the globe. A well-known entertainer among Silicon Valley tech companies and executives, he was a <strong>resident magician at Google</strong> and has performed for other companies like LinkedIn, Microsoft, Apple, and Salesforce. Robert was also <strong>The Smithsonian’s resident magician for 10 years.</strong></p><p><strong>2.</strong> Robert <strong>tailors his comedy magic to be about your company.</strong> Robert does a culture interview with your&nbsp;team to learn about your company's achievements, culture, and quirks/gossip. Then, he <strong>personalizes the humor so that it feels truly special</strong> for your guests.</p><p><strong>3.</strong> He is a master of improv! He <strong>reads the room, and with your friends and coworkers as volunteers</strong>, Robert finds the humor in your group to make every show unique. Your audience will be invested in the outcome of every trick as <strong>Robert creates an interactive experience for the audience at your event.</strong>\n</p>"
         }
       ],
-      "background": "/assets/images/website-homepage-hero-image-white-bar.png"
+      "background": "/assets/images/website-homepage-hero-image-white-bar.png",
+      "overlay": 0.15
     },
     {
       "theme": "light",
       "blocks": [
         {
           "type": "video",
-          "youtubeId": "C8IFFrylpwU"
+          "youtubeId": "C8IFFrylpwU",
+          "width": 650
         },
         {
           "type": "text",
@@ -81,7 +82,8 @@
         {
           "type": "image",
           "src": "/assets/images/robert-strong-san-francisco-magician-and-emcee-floating-holding-book.png",
-          "alt": "San Francisco magician Robert Strong in a suit holding a glowing book."
+          "alt": "San Francisco magician Robert Strong in a suit holding a glowing book.",
+          "width": 250
         }
       ]
     },
@@ -90,7 +92,24 @@
       "blocks": [
         {
           "type": "gallery",
+          "variant": "grid",
           "images": [
+            {
+              "src": "/assets/images/robert-strong-performing-on-stage-as-tedx-san-francisco-magician-and-emcee.jpg",
+              "alt": " Robert talked about Neuroscience at TEDx San Francisco, 2018."
+            },
+            {
+              "src": "/assets/images/san-francisco-magician-and-emcee-robert-strong-performing-for-linkedin.jpg",
+              "alt": "Robert was hired by LinkedIn for a series of magic shows in the Bay Area, 2023."
+            },
+            {
+              "src": "/assets/images/robert-strong-is-tedx-san-francisco-resident-magician-and-emcee.png",
+              "alt": "Robert performed amazing illusions at TEDx Palo Alto, 2019."
+            },
+            {
+              "src": "/assets/images/san-francisco-magician-robert-strong-with-robin-williams.jpeg",
+              "alt": "San Francisco magician Robert Strong with Robin Williams."
+            },
             {
               "src": "/assets/images/robert-strong-performing-on-stage-as-tedx-san-francisco-magician-and-emcee.jpg",
               "alt": " Robert talked about Neuroscience at TEDx San Francisco, 2018."

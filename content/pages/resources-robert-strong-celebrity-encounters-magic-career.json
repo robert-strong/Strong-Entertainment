@@ -1,0 +1,29 @@
+{
+  "slug": "resources/robert-strong-celebrity-encounters-magic-career",
+  "title": "Celebrity Magic: Robert Strong's Star-Studded Entertainment Career — Robert Strong - San Francisco Comedy Magician - Corporate Entertainment",
+  "description": "Discover magician Robert Strong's encounters with celebrities like Robin Williams, Neil Patrick Harris, and Weird Al. Watch a video encapsulating his 30+ year career in magic and entertainment.",
+  "sections": [
+    {
+      "theme": "light",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<h1>Robert Strong with Celebrities Who Love Magic!</h1>"
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "blocks": [
+        {
+          "type": "video",
+          "youtubeId": "G9hNT4_OR_k"
+        },
+        {
+          "type": "text",
+          "html": "<p>Check out all of the celebrities Robert has been seen with! Robert is an expert magician who’s performed magic across the globe and has had the opportunity to meet and perform for and with some amazing talent over his 30+ years as a magician. Robert has often interacted with actors, including Robin Williams, Jason Alexander, and Neil Patrick Harris, singers like Weird Al and En Vogue, and legendary comedians like Carol Channing, Rich Little, and Steve Rossi. See Robert’s photos with these stars and so many more, and learn about Robert’s storied journey in the entertainment industry! </p>"
+        }
+      ]
+    }
+  ]
+}

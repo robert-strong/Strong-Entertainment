@@ -1,6 +1,5 @@
 {
   "slug": "virtual-magic-shows-and-content-creation",
-  "navLabel": "Virtual",
   "title": "Connect Your Team With Hybrid & Virtual Magic Shows",
   "description": "Fun & Interactive Virtual & Hybrid Magic Shows to Connect Your Team/Guests With Mind-Bending Mentalism, Skillful Sleight of Hand, & Jaw-Dropping Illusions Delivered Directly to Your Screens.",
   "sections": [
@@ -67,7 +66,28 @@
       "blocks": [
         {
           "type": "gallery",
+          "variant": "grid",
           "images": [
+            {
+              "src": "/assets/images/robert-strong-performing-a-virtual-magic-show-with-his-partner-doug.jpg",
+              "alt": "Robert and his new side-kick performing a virtual magic show together."
+            },
+            {
+              "src": "/assets/images/robert-strong-the-virtual-comedy-magician.jpg",
+              "alt": "A cartooned digital deception virtual magic show."
+            },
+            {
+              "src": "/assets/images/robert-strong-doing-flexibility-trick-during-virtual-magic-show.jpg",
+              "alt": "Robert is flexible and can customize his show for you!"
+            },
+            {
+              "src": "/assets/images/robert-strong-virtual-magician-2.png",
+              "alt": "Robert stuns virtual crowds with the best virtual magic show they've seen."
+            },
+            {
+              "src": "/assets/images/robert-strong-performing-virtual-magic-jeopardy.png",
+              "alt": "Robert stunning a virtual magic show corporate audience."
+            },
             {
               "src": "/assets/images/robert-strong-performing-a-virtual-magic-show-with-his-partner-doug.jpg",
               "alt": "Robert and his new side-kick performing a virtual magic show together."
@@ -101,7 +121,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "5lzUq0sSkAQ"
+          "youtubeId": "5lzUq0sSkAQ",
+          "width": 550
         },
         {
           "type": "text",
@@ -118,7 +139,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "TUUxvKallPw"
+          "youtubeId": "TUUxvKallPw",
+          "width": 600
         },
         {
           "type": "text",
@@ -126,7 +148,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "VMxtZp87gsY"
+          "youtubeId": "VMxtZp87gsY",
+          "width": 600
         },
         {
           "type": "text",
@@ -134,7 +157,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "X9NrZQzzcU8"
+          "youtubeId": "X9NrZQzzcU8",
+          "width": 600
         },
         {
           "type": "text",
@@ -142,7 +166,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "nkh07td4oKM"
+          "youtubeId": "nkh07td4oKM",
+          "width": 600
         },
         {
           "type": "text",
@@ -150,7 +175,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "B-V0dRAam30"
+          "youtubeId": "B-V0dRAam30",
+          "width": 600
         },
         {
           "type": "text",
@@ -158,7 +184,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "7a8nuZ_4yd0"
+          "youtubeId": "7a8nuZ_4yd0",
+          "width": 600
         },
         {
           "type": "text",
@@ -166,7 +193,8 @@
         },
         {
           "type": "video",
-          "youtubeId": "zy6HoFKTiEs"
+          "youtubeId": "zy6HoFKTiEs",
+          "width": 600
         },
         {
           "type": "text",

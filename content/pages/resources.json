@@ -1,6 +1,5 @@
 {
   "slug": "resources",
-  "navLabel": "Resources",
   "title": "Resources",
   "description": null,
   "sections": [
@@ -12,7 +11,53 @@
           "html": "<h1><strong>Magic Resources from Robert Strong</strong></h1>"
         }
       ],
-      "background": "/assets/images/business-keynote-speaker-robert-strong-speaking-at-tedx-san-francisco.png"
+      "background": "/assets/images/business-keynote-speaker-robert-strong-speaking-at-tedx-san-francisco.png",
+      "overlay": 0.15
+    },
+    {
+      "theme": "white",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "image": "/assets/images/business-keynote-speaker-robert-strong-speaking-at-tedx-san-francisco-b9e59503.png",
+              "alt": "Magic Resources from Robert Strong",
+              "title": "Magic Resources from Robert Strong",
+              "href": "/resources/the-7-best-san-francisco-magicians",
+              "html": "<p>San Francisco is known for its amazing entertainment, and the city's magic scene is no exception. From famous magic theaters to small close-up magic shows, San Francisco has been home to some of the most incredible magicians in history.</p>"
+            },
+            {
+              "image": "/assets/images/robert-with-neil-patrick-harris.png",
+              "alt": "Robert Strong with Celebrities Who Love Magic!",
+              "title": "Robert Strong with Celebrities Who Love Magic!",
+              "href": "/resources/robert-strong-celebrity-encounters-magic-career",
+              "html": ""
+            },
+            {
+              "image": "/assets/images/screenshot-2024-07-24-at-5.57.30-pm.png",
+              "alt": "Magic Tricks with Pets: Robert Strong's Charming Collaboration with Adopt a Pet",
+              "title": "Magic Tricks with Pets: Robert Strong's Charming Collaboration with Adopt a Pet",
+              "href": "/resources/magical-pet-adoption-with-robert-strong-and-adopt-a-pet",
+              "html": ""
+            },
+            {
+              "image": "/assets/images/robert-strong-david-eagleman-inner-cosmos.jpeg",
+              "alt": "My Recent Appearance on Inner Cosmos Podcast",
+              "title": "My Recent Appearance on Inner Cosmos Podcast",
+              "href": "/resources/robert-strong-inner-cosmos-podcast-magic-secrets",
+              "html": ""
+            },
+            {
+              "image": "/assets/images/robert-strong-featured-on-whats-one-thing-smart-meetings.png",
+              "alt": "Robert Strong Featured on Smart Meetings Podcast: Creating Magical Experiences",
+              "title": "Robert Strong Featured on Smart Meetings Podcast: Creating Magical Experiences",
+              "href": "/resources/smart-meetings-podcast-feature-robert-strong",
+              "html": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
