@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>Robert Strong's Keynote </strong><strong>Empowers Businesses to Achieve </strong><strong>Magical Results.</strong></h1>"
+          "html": "<h1><strong>Robert Strong's Keynote </strong><span class=\"c-red\"><strong>Empowers Businesses to Achieve </strong></span><strong>Magical Results.</strong></h1>"
         },
         {
           "type": "text",
-          "html": "<h2>Corporate Keynote Speaker, Award-Winning Magician, and Bestselling Author</h2>"
+          "html": "<h2>Corporate <span class=\"c-red\">Keynote Speaker,</span> Award-Winning <span class=\"c-red\">Magician,</span> and Bestselling <span class=\"c-red\">Author</span></h2>"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>See some of the Companies who trust Robert Strong</strong><strong> to entertain their executives, teams, and customers:</strong></p>"
+          "html": "<p><span class=\"c-red\"><strong>See some of the Companies who trust Robert Strong</strong></span><span class=\"c-white\"><strong> to entertain their executives, teams, and customers:</strong></span></p>"
         },
         {
           "type": "logos"
@@ -43,7 +43,7 @@
         },
         {
           "type": "text",
-          "html": "<h2><strong>Robert Strong’s Keynote Called “Creating Magic in the World” </strong><strong>Empowers Your Audience</strong><strong> to:</strong></h2><ul><li><p><strong>Create memorable experiences </strong>that connect people.</p></li><li><p><strong>Get customers </strong>excited about your solutions.</p></li><li><p><strong>Grab attention </strong>and deliver captivating presentations.</p></li><li><p><strong>Develop a workplace culture</strong> that people love.</p></li><li><p><strong>Craft amazing stories </strong>that delight.</p></li></ul>"
+          "html": "<h2><span class=\"c-black\"><strong>Robert Strong’s Keynote Called “Creating Magic in the World” </strong></span><span class=\"c-red\"><strong>Empowers Your Audience</strong></span><span class=\"c-black\"><strong> to:</strong></span></h2><ul><li><p><span class=\"c-black\"><strong>Create memorable experiences </strong>that connect people.</span></p></li><li><p><span class=\"c-black\"><strong>Get customers </strong>excited about your solutions.</span></p></li><li><p><span class=\"c-black\"><strong>Grab attention </strong>and deliver captivating presentations.</span></p></li><li><p><span class=\"c-black\"><strong>Develop a workplace culture</strong> that people love.</span></p></li><li><p><span class=\"c-black\"><strong>Craft amazing stories </strong>that delight.</span></p></li></ul>"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Why is Robert Strong </strong><strong>Silicon Valley's Best</strong><strong> Keynote Speaker and Entertainer?</strong></h2><p>Robert's specialty is creating <strong>bespoke business keynotes</strong> and workshops <strong>that</strong>\n<strong>speak to the story of your organization</strong> and its culture.</p><p><strong>He engages your guests </strong>with<strong>\n</strong>the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</p><p>Robert <strong>blends comedy, magic, and storytelling</strong> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</p><p>Robert has a <strong>flawless 35+ year track record</strong> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</p>"
+          "html": "<h2><span class=\"c-light\"><strong>Why is Robert Strong </strong></span><span class=\"c-red\"><strong>Silicon Valley's Best</strong></span><span class=\"c-white\"><strong> Keynote Speaker and Entertainer?</strong></span></h2><p><span class=\"c-white\">Robert's specialty is creating </span><span class=\"c-red\"><strong>bespoke business keynotes</strong></span><span class=\"c-white\"> and workshops </span><span class=\"c-red\"><strong>that</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>speak to the story of your organization</strong></span><span class=\"c-white\"> and its culture.</span></p><p><span class=\"c-red\"><strong>He engages your guests </strong></span><span class=\"c-white\">with</span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\">the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</span></p><p><span class=\"c-white\">Robert </span><span class=\"c-red\"><strong>blends comedy, magic, and storytelling</strong></span><span class=\"c-white\"> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</span></p><p><span class=\"c-white\">Robert has a </span><span class=\"c-red\"><strong>flawless 35+ year track record</strong></span><span class=\"c-white\"> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</span></p>"
         }
       ],
       "background": "/assets/images/website-homepage-hero-image-white-bar.png",
@@ -75,7 +75,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Business Wisdom…</strong><strong> Told Through Magic</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Business Wisdom…</strong></span><strong> Told Through Magic</strong></h2>"
         },
         {
           "type": "image",
@@ -104,7 +104,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>He has done </strong><strong>10 TEDx</strong><strong>\n</strong><strong>Talks</strong><strong>, 2 TED Talks, and an appearance on the hit TV show </strong><strong>Penn &amp; Teller Fool Us</strong><strong>.</strong></h2>"
+          "html": "<h2><strong>He has done </strong><span class=\"c-red\"><strong>10 TEDx</strong></span><strong>\n</strong><span class=\"c-red\"><strong>Talks</strong></span><strong>, 2 TED Talks, and an appearance on the hit TV show </strong><span class=\"c-red\"><strong>Penn &amp; Teller Fool Us</strong></span><strong>.</strong></h2>"
         },
         {
           "type": "text",

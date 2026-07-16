@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>Robert Strong</strong></h1>"
+          "html": "<h1><span class=\"c-red\"><strong>Robert Strong</strong></span></h1>"
         },
         {
           "type": "text",
-          "html": "<h3>Speaker, Comedy Magician, &amp; Author</h3>"
+          "html": "<h3><span class=\"c-white\">Speaker, Comedy Magician, &amp; Author</span></h3>"
         }
       ],
       "background": "/assets/images/robert-strong-comedy-magician.png",
@@ -29,21 +29,21 @@
               "alt": "comedian-magician-robert-strong-speaking-to-a-crowd.jpg",
               "title": "Keynote Speaker",
               "href": "/keynote-speaker",
-              "html": "<p><strong>Inspire your guests</strong> and empower them to create real change through Robert’s bespoke keynote.</p>"
+              "html": "<p><span class=\"c-accent\"><strong>Inspire your guests</strong></span> and empower them to create real change through Robert’s bespoke keynote.</p>"
             },
             {
               "image": "/assets/images/comedian-magician-robert-strong-speaking-to-a-crowd-c0428c9b.jpg",
               "alt": "Comedian magician Robert Strong performing magic in front of a piano in a tuxedo.",
               "title": "Magician & Emcee",
               "href": "/san-francisco-bay-area-magician",
-              "html": "<p>With <strong>35+ years of experience</strong>, he is always prepared, professional, quick on his feet, and easy to work with.</p>"
+              "html": "<p>With <span class=\"c-black\"><strong>35+ years of experience</strong>,</span><span class=\"c-red\">\n</span>he is always prepared, professional, quick on his feet, and easy to work with.</p>"
             },
             {
               "image": "/assets/images/robert-strong-performing-comedy-magic-for-a-team.jpg",
               "alt": "Robert Strong performing comedy magic at a trade show for Cisco.",
               "title": "Trade Show Magician",
               "href": "/trade-show-magician",
-              "html": "<p><strong>Robert has presented at 400+ trade show events</strong> nationally and internationally and is an expert at drawing crowds to your booth.</p>"
+              "html": "<p><span class=\"c-black\"><strong>Robert has presented at 400+ trade show events</strong>\n</span>nationally and internationally and is an expert at drawing crowds to your booth.</p>"
             },
             {
               "image": "/assets/images/robert-strong-performing-comedy-magic-for-a-team.png",
@@ -57,7 +57,7 @@
               "alt": "Robert Strong doing clean magic with a dog for a virtual crowd.",
               "title": "Virtual Magic Shows",
               "href": "/virtual-magic-shows-and-content-creation",
-              "html": "<p>Robert <strong>performs jaw-dropping virtual magic</strong>, and creates spectacular videos or content for your company.</p>"
+              "html": "<p>Robert <span class=\"c-black\"><strong>performs jaw-dropping virtual magic</strong></span>, and creates spectacular videos or content for your company.</p>"
             }
           ]
         }
@@ -68,7 +68,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Business Wisdom…</strong><strong>\n</strong><strong>Told Through Magic</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Business Wisdom…</strong></span><strong>\n</strong><span class=\"c-white\"><strong>Told Through Magic</strong></span></h2>"
         },
         {
           "type": "image",
@@ -97,7 +97,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Who is</strong><strong> Robert Strong?</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Who is</strong></span><strong> Robert Strong?</strong></h2>"
         },
         {
           "type": "image",
@@ -116,7 +116,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>See Robert </strong><strong>in Action:</strong></h2>"
+          "html": "<h2><strong>See Robert </strong><span class=\"c-red\"><strong>in Action:</strong></span></h2>"
         },
         {
           "type": "text",
@@ -152,7 +152,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>How is</strong><strong> Robert Different?</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>How is</strong></span><strong> Robert Different?</strong></h2>"
         },
         {
           "type": "image",

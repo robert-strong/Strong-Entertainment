@@ -47,7 +47,7 @@
         },
         {
           "type": "text",
-          "html": "<p><strong>This was the amazing line-up:</strong></p><p>Welcome – <a href=\"/san-francisco-bay-area-magician\">Robert Strong,&nbsp;MC/Emcee</a></p><p>Background – John Cox, Houdini Historian</p><p>Earnest Séance – Terrie Huberman</p><p>Doubt – Michael Shermer, Skeptics Society Founder</p><p>Magic – Justin Willman, Magician</p><p>More Doubt – Jamy Ian Swiss, Magician/Skeptic</p><p>Magical Séance – Paul Draper, Mentalist</p><p><a href=\"https://www.youtube.com/watch?v=-2cpH0yP5gw\">Enjoy watching the full magic show produced by Robert Strong in San Francisco.</a></p>"
+          "html": "<p><strong>This was the amazing line-up:</strong></p><p>Welcome – <a href=\"/san-francisco-bay-area-magician\">Robert Strong,&nbsp;MC/Emcee</a></p><p>Background – John Cox, Houdini Historian</p><p>Earnest Séance – Terrie Huberman</p><p>Doubt – Michael Shermer, Skeptics Society Founder</p><p>Magic – Justin Willman, Magician</p><p>More Doubt – Jamy Ian Swiss, Magician/Skeptic</p><p>Magical Séance – Paul Draper, Mentalist</p><p><a href=\"https://www.youtube.com/watch?v=-2cpH0yP5gw\">Enjoy watching<span class=\"c-dark\"> the full magic show produced by Robert Strong in San Francisco.</span></a></p>"
         },
         {
           "type": "divider"

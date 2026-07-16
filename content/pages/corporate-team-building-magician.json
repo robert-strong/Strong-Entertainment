@@ -8,11 +8,11 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h1><strong>The Best Corporate and </strong><strong>Team Building Magician</strong></h1>"
+          "html": "<h1><strong>The Best Corporate and </strong><mark class=\"hl\"><span class=\"c-red\"><strong>Team Building Magician</strong></span></mark></h1>"
         },
         {
           "type": "text",
-          "html": "<h2><strong>Elevate Your Team Building Activities with a </strong><strong>Corporate Magician</strong></h2>"
+          "html": "<h2><strong>Elevate Your Team Building Activities with a </strong><span class=\"c-red\"><strong>Corporate Magician</strong></span></h2>"
         },
         {
           "type": "button",
@@ -27,7 +27,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<p><strong>These companies trust Robert Strong</strong><strong> to lead their team building exercises:</strong></p>"
+          "html": "<p><span class=\"c-red\"><strong>These companies trust Robert Strong</strong></span><span class=\"c-white\"><strong> to lead their team building exercises:</strong></span></p>"
         },
         {
           "type": "logos"
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Why Choose Robert Strong</strong><strong> for </strong><strong>Your Next Corporate Event or Team Building Workshop</strong><strong>?</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Why Choose Robert Strong</strong></span><strong> for </strong><span class=\"c-black\"><strong>Your Next Corporate Event or Team Building Workshop</strong></span><strong>?</strong></h2>"
         },
         {
           "type": "video",
@@ -47,7 +47,7 @@
         },
         {
           "type": "text",
-          "html": "<p>Robert <strong>customizes his magic performances for each client</strong>, whether it's clean comedy for a corporate event or team building activities. Robert tailors his magic performances by integrating your organization’s story and mission into his act. Robert will tell jokes your employees relate to and unite your organization through fun and effective office team building activities.</p><p>Robert is a versatile performer who can entertain both live and remote audiences. <strong>Boost creativity and teamwork with magic workshops and performances</strong>. If you’re looking for corporate team building ideas, Robert is a favorite of Salesforce and SAP.</p><p>Have a great laugh with an experience that will <strong>bring you and your co-workers closer together</strong>. Enjoy a magic workshop that helps you learn and grow together.</p>"
+          "html": "<p>Robert <span class=\"c-red\"><strong>customizes his magic performances for each client</strong></span>, whether it's clean comedy for a corporate event or team building activities. Robert tailors his magic performances by integrating your organization’s story and mission into his act. Robert will tell jokes your employees relate to and unite your organization through fun and effective office team building activities.</p><p>Robert is a versatile performer who can entertain both live and remote audiences. <span class=\"c-red\"><strong>Boost creativity and teamwork with magic workshops and performances</strong></span>. If you’re looking for corporate team building ideas, Robert is a favorite of Salesforce and SAP.</p><p>Have a great laugh with an experience that will <span class=\"c-red\"><strong>bring you and your co-workers closer together</strong></span>. Enjoy a magic workshop that helps you learn and grow together.</p>"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Robert’s</strong><strong>\n</strong><strong>Helps Your Team</strong><strong> Build Important Skills Like:</strong></h3>"
+          "html": "<h3><span class=\"c-black\"><strong>Robert’s</strong></span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-black\"><strong>Helps Your Team</strong></span><span class=\"c-red\"><strong> Build Important Skills Like:</strong></span></h3>"
         },
         {
           "type": "video",

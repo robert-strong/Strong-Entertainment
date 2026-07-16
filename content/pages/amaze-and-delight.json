@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3>Amaze &amp; Delight is a <strong><em>thoroughly researched</em></strong> and entertaining guide to <strong><em>improving executive presence</em></strong>, work culture, and customer experience.</h3>"
+          "html": "<h3>Amaze &amp; Delight is a <span class=\"c-red\"><strong><em>thoroughly researched</em></strong></span> and entertaining guide to<span class=\"c-red\">\n<strong><em>improving executive presence</em></strong></span><span class=\"c-black\">, work culture, and customer experience.</span></h3>"
         },
         {
           "type": "image",
@@ -95,7 +95,7 @@
         },
         {
           "type": "text",
-          "html": "<h3><strong><em>Business Wisdom… </em></strong><strong><em>Told Through Magic</em></strong></h3>"
+          "html": "<h3><strong><em>Business Wisdom… </em></strong><span class=\"c-red\"><strong><em>Told Through Magic</em></strong></span></h3>"
         },
         {
           "type": "text",
@@ -108,7 +108,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>65+ </strong><strong>Five-Star</strong><strong> Reviews on Amazon</strong></h3>"
+          "html": "<h3><strong>65+ </strong><span class=\"c-red\"><strong>Five-Star</strong></span><strong> Reviews on Amazon</strong></h3>"
         }
       ]
     },
@@ -117,7 +117,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Behind the Author,</strong><strong> Robert Strong</strong></h3>"
+          "html": "<h3><span class=\"c-red\"><strong>Behind the Author,</strong></span><strong> Robert Strong</strong></h3>"
         },
         {
           "type": "text",
@@ -140,7 +140,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Team-Building</strong><strong> Workshops</strong></h3>"
+          "html": "<h3><span class=\"c-red\"><strong>Team-Building</strong></span><strong> Workshops</strong></h3>"
         },
         {
           "type": "image",
@@ -186,7 +186,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><strong>Frequently Asked Questions About </strong><strong>Amaze &amp; Delight:</strong></h3><p><strong>Who are the authors?</strong></p><p><strong>Robert Strong</strong> is a magician and speaker who has been voted San Francisco’s \"Best Magician\" twice and \"Best Comedian\" three times. He has performed in 50 countries, all 50 states, and twice at the White House. </p><p><strong>David Martinez</strong> had a 30-year career in marketing for high-tech companies, including 17 years at Apple, before pursuing a full-time career as a magician and speaker. </p><p><strong>Where can I buy <em>Amaze &amp; Delight</em>?</strong></p><p>You can buy <em>Amaze &amp; Delight</em> on <a href=\"https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38\"><strong>Amazon</strong></a>, where it has a perfect five-star rating with 65+ reviews.</p><p><strong>Who is <em>Amaze &amp; Delight </em>perfect for?</strong></p><p>The book is recommended and read by C-suite executives, experts, and authorities across all industries. The forward is written by Siri co-creator Adam Cheyer, who says, “I hope you read this book, take away new perspectives and ideas, dream big magical dreams about business or personal growth, and then work hard to turn your visions into reality.”</p><p>This book is perfect for anyone who wants to know how to prepare and deliver engaging presentations, how to run meetings that make attendees glad they were invited, how to build a psychologically safe work environment where the team can share their ideas honestly, and how to create a workplace culture that people love.</p>"
+          "html": "<h3><strong>Frequently Asked Questions About </strong><span class=\"c-red\"><strong>Amaze &amp; Delight:</strong></span></h3><p><strong>Who are the authors?</strong></p><p><strong>Robert Strong</strong> is a magician and speaker who has been voted San Francisco’s \"Best Magician\" twice and \"Best Comedian\" three times. He has performed in 50 countries, all 50 states, and twice at the White House. </p><p><strong>David Martinez</strong> had a 30-year career in marketing for high-tech companies, including 17 years at Apple, before pursuing a full-time career as a magician and speaker. </p><p><strong>Where can I buy <em>Amaze &amp; Delight</em>?</strong></p><p>You can buy <em>Amaze &amp; Delight</em> on <a href=\"https://www.amazon.com/Amaze-Delight-Secrets-Creating-Business/dp/B0BT6Y6N38\"><strong>Amazon</strong></a>, where it has a perfect five-star rating with 65+ reviews.</p><p><strong>Who is <em>Amaze &amp; Delight </em>perfect for?</strong></p><p>The book is recommended and read by C-suite executives, experts, and authorities across all industries. The forward is written by Siri co-creator Adam Cheyer, who says, “I hope you read this book, take away new perspectives and ideas, dream big magical dreams about business or personal growth, and then work hard to turn your visions into reality.”</p><p>This book is perfect for anyone who wants to know how to prepare and deliver engaging presentations, how to run meetings that make attendees glad they were invited, how to build a psychologically safe work environment where the team can share their ideas honestly, and how to create a workplace culture that people love.</p>"
         }
       ]
     },

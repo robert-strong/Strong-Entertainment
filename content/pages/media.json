@@ -17,7 +17,7 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Robert Strong’s </strong><strong>Featured Videos:</strong></h2>"
+          "html": "<h2><strong>Robert Strong’s </strong><span class=\"c-red\"><strong>Featured Videos:</strong></span></h2>"
         },
         {
           "type": "text",
