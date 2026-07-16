@@ -306,6 +306,7 @@
       head.appendChild(themeSel);
       var box = el('div', { class: 'section' }, [head]);
       if (sec.background != null) box.appendChild(field('Background image', sec.background, function (v) { sec.background = v; }, { thumb: true }));
+      if (sec.backgroundVideo != null) box.appendChild(field('Background video (path under /assets/videos/)', sec.backgroundVideo, function (v) { sec.backgroundVideo = v; }));
       (sec.blocks || []).forEach(function (b) { box.appendChild(blockEditor(b)); });
       root.appendChild(box);
     });

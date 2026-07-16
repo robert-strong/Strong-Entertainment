@@ -5,7 +5,7 @@
   "description": "Connecting Your Team Through Play is Fun with Corporate Magician Robert Strong. He Leads In-Person & Remote Team Building for Google, LinkedIn, Microsoft, & more.",
   "sections": [
     {
-      "theme": "dark",
+      "theme": "hero",
       "blocks": [
         {
           "type": "text",
@@ -20,7 +20,8 @@
           "text": "Contact",
           "href": "/corporate-team-building-magician#contact"
         }
-      ]
+      ],
+      "backgroundVideo": "/assets/videos/team-building-intro.mp4"
     },
     {
       "theme": "dark",

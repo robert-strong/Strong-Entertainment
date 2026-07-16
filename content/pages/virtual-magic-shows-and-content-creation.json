@@ -5,7 +5,7 @@
   "description": "Fun & Interactive Virtual & Hybrid Magic Shows to Connect Your Team/Guests With Mind-Bending Mentalism, Skillful Sleight of Hand, & Jaw-Dropping Illusions Delivered Directly to Your Screens.",
   "sections": [
     {
-      "theme": "dark",
+      "theme": "hero",
       "blocks": [
         {
           "type": "text",
@@ -16,7 +16,8 @@
           "text": "Contact",
           "href": "/#contact"
         }
-      ]
+      ],
+      "backgroundVideo": "/assets/videos/virtual-magic-intro.mp4"
     },
     {
       "theme": "dark",

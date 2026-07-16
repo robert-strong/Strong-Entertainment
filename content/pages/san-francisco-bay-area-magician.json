@@ -5,7 +5,7 @@
   "description": "Robert Strong is a San Francisco and Greater Bay Area Magician & Event Emcee Who Wows Audiences With Memorable Experiences That Connect People.",
   "sections": [
     {
-      "theme": "dark",
+      "theme": "hero",
       "blocks": [
         {
           "type": "text",
@@ -20,7 +20,8 @@
           "text": "Contact",
           "href": "/#contact"
         }
-      ]
+      ],
+      "backgroundVideo": "/assets/videos/banner-comedy-magician.mp4"
     },
     {
       "theme": "dark",

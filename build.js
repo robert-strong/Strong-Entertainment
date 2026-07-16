@@ -116,8 +116,13 @@ function renderBlocks(blocks) {
 function renderSection(sec) {
   const id = sec.id ? ` id="${esc(sec.id)}"` : '';
   if (sec.theme === 'hero') {
+    const bgStyle = sec.background ? ` style="background-image:url('${esc(sec.background)}')"` : '';
+    const video = sec.backgroundVideo ? `
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata"${sec.background ? ` poster="${esc(sec.background)}"` : ''}>
+      <source src="${esc(sec.backgroundVideo)}" type="video/mp4">
+    </video>` : '';
     return `
-  <section class="sec sec--hero"${id} style="background-image:url('${esc(sec.background)}')">
+  <section class="sec sec--hero"${id}${bgStyle}>${video}
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       ${renderBlocks(sec.blocks)}

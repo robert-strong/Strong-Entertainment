@@ -5,7 +5,7 @@
   "description": "Looking for New Trade Show Booth Ideas? Experience the Magic of a Packed Booth & Thousands of Qualified Leads with Expert Trade Show Magician Robert Strong.",
   "sections": [
     {
-      "theme": "dark",
+      "theme": "hero",
       "blocks": [
         {
           "type": "text",
@@ -20,7 +20,8 @@
           "text": "Contact",
           "href": "/trade-show-magician#contact"
         }
-      ]
+      ],
+      "backgroundVideo": "/assets/videos/trade-show-clip.mp4"
     },
     {
       "theme": "light",
