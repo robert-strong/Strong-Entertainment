@@ -8,7 +8,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3>Amaze &amp; Delight is a <span class=\"c-red\"><strong><em>thoroughly researched</em></strong></span> and entertaining guide to<span class=\"c-red\">\n<strong><em>improving executive presence</em></strong></span><span class=\"c-black\">, work culture, and customer experience.</span></h3>"
+          "html": "<h3>Amaze &amp; Delight is a <span class=\"c-red\"><strong><em>thoroughly researched</em></strong></span> and entertaining guide to<span class=\"c-red\">\n<strong><em>improving executive presence</em></strong></span><span class=\"c-black\">, work culture, and customer experience.</span></h3>",
+          "pos": "left",
+          "width": 408
         },
         {
           "type": "image",
@@ -55,30 +57,6 @@
             {
               "src": "/assets/images/vinod-khosla-amaze-and-delight-review.png",
               "alt": "vinod-khosla-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/amir-shevat-amaze-and-delight-review.png",
-              "alt": "amir-shevat-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/emile-litvak-amaze-and-delight-review.png",
-              "alt": "emile-litvak-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/jamie-metzl-amaze-and-delight-review.png",
-              "alt": "jamie-metzl-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/mirit-cohen-amaze-and-delight-review.png",
-              "alt": "mirit-cohen-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/nawal-fakhoury-amaze-and-delight-review.png",
-              "alt": "nawal-fakhoury-amaze-and-delight-review.png"
-            },
-            {
-              "src": "/assets/images/vinod-khosla-amaze-and-delight-review.png",
-              "alt": "vinod-khosla-amaze-and-delight-review.png"
             }
           ]
         }
@@ -95,11 +73,15 @@
         },
         {
           "type": "text",
-          "html": "<h3><strong><em>Business Wisdom… </em></strong><span class=\"c-red\"><strong><em>Told Through Magic</em></strong></span></h3>"
+          "html": "<h3><strong><em>Business Wisdom… </em></strong><span class=\"c-red\"><strong><em>Told Through Magic</em></strong></span></h3>",
+          "pos": "left",
+          "width": 817
         },
         {
           "type": "text",
-          "html": "<p>Creating and maintaining a happy and healthy work culture is the responsibility of everyone—executives, managers,&nbsp;<em>and</em>&nbsp;individual contributors. <strong>If you’re part of a team at work, this book is for you!</strong><br><br>Drawing from an entire lifetime of captivating and entertaining audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.<br><br>You’ll enjoy illuminating stories from their careers in magic, comedy, and high-tech. And you’ll learn helpful, practical advice that you can start implementing right away, including:</p><ul><li><p>How to create magical moments for your teammates and clients</p></li><li><p>How to build a workplace that feels psychologically safe and supportive</p></li><li><p>How to add joy and humor to your daily interactions with customers and coworkers</p></li><li><p>How to forge stronger connections with your team, even if they work remotely</p></li></ul><p><br>Plus, you'll get <strong>detailed instructions for 12+ stunning magic tricks</strong> you can use to wow your coworkers and friends.</p>"
+          "html": "<p>Creating and maintaining a happy and healthy work culture is the responsibility of everyone—executives, managers,&nbsp;<em>and</em>&nbsp;individual contributors. <strong>If you’re part of a team at work, this book is for you!</strong><br><br>Drawing from an entire lifetime of captivating and entertaining audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.<br><br>You’ll enjoy illuminating stories from their careers in magic, comedy, and high-tech. And you’ll learn helpful, practical advice that you can start implementing right away, including:</p><ul><li><p>How to create magical moments for your teammates and clients</p></li><li><p>How to build a workplace that feels psychologically safe and supportive</p></li><li><p>How to add joy and humor to your daily interactions with customers and coworkers</p></li><li><p>How to forge stronger connections with your team, even if they work remotely</p></li></ul><p><br>Plus, you'll get <strong>detailed instructions for 12+ stunning magic tricks</strong> you can use to wow your coworkers and friends.</p>",
+          "pos": "left",
+          "width": 817
         }
       ]
     },
@@ -117,11 +99,15 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><span class=\"c-red\"><strong>Behind the Author,</strong></span><strong> Robert Strong</strong></h3>"
+          "html": "<h3><span class=\"c-red\"><strong>Behind the Author,</strong></span><strong> Robert Strong</strong></h3>",
+          "pos": "left",
+          "width": 700
         },
         {
           "type": "text",
-          "html": "<p><strong>Robert Strong</strong>&nbsp;has been voted San Francisco’s “Best Magician” three times and “Best Comedian” twice by the Bay Guardian. He is Google’s unofficial Chief Magic Officer and has been teaching magic there for years to stimulate creativity in the people who work there.</p><p>He performs at the world-famous <a href=\"https://www.magiccastle.com/\">Magic Castle</a> in Hollywood, consults and invents magic tricks that are performed by other professional magicians, produces conferences for professional speakers and entertainers, and books some of the world’s top talent for live appearances at corporate events.</p><p>He is the co-producer and host of <a href=\"https://youtu.be/KLd9zb1lypE?si=9-Qec0oyPQtFwhcY\">Comedy Talks: Conversations with the Legends of Comedy</a> and has shared the stage with countless celebrities, including Robin Williams.</p><p> He has performed in 50 countries, all 50 states, and twice at the White House. He has been a 10-year artist-in-residence at the Smithsonian Institution, resident magician at TEDx San Francisco, resident magician at Singularity University, resident magician at SF Sketchfest, and he sits on the board of the non-profit <a href=\"https://wonderfest.org/\">Wonderfest</a>.</p>"
+          "html": "<p><strong>Robert Strong</strong>&nbsp;has been voted San Francisco’s “Best Magician” three times and “Best Comedian” twice by the Bay Guardian. He is Google’s unofficial Chief Magic Officer and has been teaching magic there for years to stimulate creativity in the people who work there.</p><p>He performs at the world-famous <a href=\"https://www.magiccastle.com/\">Magic Castle</a> in Hollywood, consults and invents magic tricks that are performed by other professional magicians, produces conferences for professional speakers and entertainers, and books some of the world’s top talent for live appearances at corporate events.</p><p>He is the co-producer and host of <a href=\"https://youtu.be/KLd9zb1lypE?si=9-Qec0oyPQtFwhcY\">Comedy Talks: Conversations with the Legends of Comedy</a> and has shared the stage with countless celebrities, including Robin Williams.</p><p> He has performed in 50 countries, all 50 states, and twice at the White House. He has been a 10-year artist-in-residence at the Smithsonian Institution, resident magician at TEDx San Francisco, resident magician at Singularity University, resident magician at SF Sketchfest, and he sits on the board of the non-profit <a href=\"https://wonderfest.org/\">Wonderfest</a>.</p>",
+          "pos": "right",
+          "width": 642
         },
         {
           "type": "image",
@@ -131,7 +117,9 @@
         },
         {
           "type": "text",
-          "html": "<p><em>Robert discussing humor with comedy legends Carol Channing and Rich LIttle.</em></p>"
+          "html": "<p><em>Robert discussing humor with comedy legends Carol Channing and Rich LIttle.</em></p>",
+          "pos": "left",
+          "width": 700
         }
       ]
     },
@@ -140,7 +128,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\"><span class=\"c-red\"><strong>Team-Building</strong></span><strong> Workshops</strong></h3>"
+          "html": "<h3 class=\"ta-c\"><span class=\"c-red\"><strong>Team-Building</strong></span><strong> Workshops</strong></h3>",
+          "pos": "left",
+          "width": 642
         },
         {
           "type": "image",
@@ -150,7 +140,9 @@
         },
         {
           "type": "text",
-          "html": "<p>If you’d like best-selling Amazon author Robert Strong to share his book’s highly valuable and entertaining business wisdom directly with your team, contact him for information about the many <a href=\"/corporate-team-building-magician\"><strong>professional workshops</strong></a> that he offers.</p><p>Exemplifying the best-practices detailed in his hit book, Robert will customize the keynote, magic show, or workshop to your organization. He’ll incorporate your messaging, culture, or desired outcomes into the experience so it feels relatable and actionable to your audience.</p><p>His fun and interactive workshops are designed to help your team connect, communicate, amaze, delight, and create real magic in the world (in practical and sustainable ways).</p><p>You won’t need to read the book ahead of time because Robert is an entertaining, one-man-tome of business wisdom! As part of the event, Robert will also provide everyone in attendance with a signed copy of Amaze &amp; Delight: Secrets to Creating Magic in Business.</p><p class=\"lg\"><a href=\"/#contact\"><strong>\n</strong></a></p>"
+          "html": "<p>If you’d like best-selling Amazon author Robert Strong to share his book’s highly valuable and entertaining business wisdom directly with your team, contact him for information about the many <a href=\"/corporate-team-building-magician\"><strong>professional workshops</strong></a> that he offers.</p><p>Exemplifying the best-practices detailed in his hit book, Robert will customize the keynote, magic show, or workshop to your organization. He’ll incorporate your messaging, culture, or desired outcomes into the experience so it feels relatable and actionable to your audience.</p><p>His fun and interactive workshops are designed to help your team connect, communicate, amaze, delight, and create real magic in the world (in practical and sustainable ways).</p><p>You won’t need to read the book ahead of time because Robert is an entertaining, one-man-tome of business wisdom! As part of the event, Robert will also provide everyone in attendance with a signed copy of Amaze &amp; Delight: Secrets to Creating Magic in Business.</p><p class=\"lg\"><a href=\"/#contact\"><strong>\n</strong></a></p>",
+          "pos": "left",
+          "width": 642
         }
       ]
     },

@@ -29,7 +29,11 @@ function copyDir(src, dest) {
 
 // ---------- block renderers ----------
 const render = {
-  text: b => `<div class="prose">${b.html}</div>`,
+  text: b => {
+    const cls = 'prose' + (b.pos ? ' prose--' + b.pos : '');
+    const style = b.width ? ` style="max-width:${b.width}px"` : '';
+    return `<div class="${cls}"${style}>${b.html}</div>`;
+  },
 
   image: b => {
     const img = `<img src="${esc(b.src)}" alt="${esc(b.alt)}" loading="lazy">`;
@@ -151,7 +155,7 @@ function renderBlocks(blocks) {
   return out.join('\n');
 }
 
-function renderSection(sec) {
+function renderSection(sec, index) {
   const id = sec.id ? ` id="${esc(sec.id)}"` : '';
   if (sec.theme === 'hero') {
     const bgStyle = sec.background ? ` style="background-image:url('${esc(sec.background)}')"` : '';
@@ -160,10 +164,13 @@ function renderSection(sec) {
       <source src="${esc(sec.backgroundVideo)}" type="video/mp4">
     </video>` : '';
     const overlayStyle = sec.overlay != null ? ` style="background:rgba(10,10,10,${Math.min(0.85, sec.overlay + 0.2)})"` : '';
+    // page-top heroes are tall banners; heroes further down size to their content
+    const inset = index > 0 ? ' sec--hero-inset' : '';
+    const wide = sec.blocks.some(b => b.pos) ? ' container--wide' : '';
     return `
-  <section class="sec sec--hero"${id}${bgStyle}>${video}
+  <section class="sec sec--hero${inset}"${id}${bgStyle}>${video}
     <div class="hero-overlay"${overlayStyle}></div>
-    <div class="container hero-content">
+    <div class="container${wide} hero-content">
       ${renderBlocks(sec.blocks)}
     </div>
   </section>`;

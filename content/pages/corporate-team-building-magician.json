@@ -39,7 +39,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><span class=\"c-red\"><strong>Why Choose Robert Strong</strong></span><strong> for </strong><span class=\"c-black\"><strong>Your Next Corporate Event or Team Building Workshop</strong></span><strong>?</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Why Choose Robert Strong</strong></span><strong> for </strong><span class=\"c-black\"><strong>Your Next Corporate Event or Team Building Workshop</strong></span><strong>?</strong></h2>",
+          "pos": "left",
+          "width": 408
         },
         {
           "type": "video",
@@ -65,7 +67,9 @@
         },
         {
           "type": "text",
-          "html": "<p class=\"lg\"><strong>1.⁠ ⁠Iterative Design</strong></p><p>Learn the value of iterative design through a friendly competition to build the highest structure… using uncooked spaghetti, a yard of tape, a yard of string, and a marshmallow on top. Kindergarteners build higher structures than adults, so good luck!!</p>"
+          "html": "<p class=\"lg\"><strong>1.⁠ ⁠Iterative Design</strong></p><p>Learn the value of iterative design through a friendly competition to build the highest structure… using uncooked spaghetti, a yard of tape, a yard of string, and a marshmallow on top. Kindergarteners build higher structures than adults, so good luck!!</p>",
+          "pos": "left",
+          "width": 642
         },
         {
           "type": "video",
@@ -74,7 +78,9 @@
         },
         {
           "type": "text",
-          "html": "<p class=\"lg\"><strong>2.⁠ ⁠Storytelling</strong></p><p>Robert helps your employees become masterful storytellers who can blend their personal experience into any presentation or talk.</p><p>Watch your employees smile and laugh as they develop their speaking presence through magic, adding their unique flare and personality to a routine!</p><p>Learning magic is the perfect team building activity for startups, corporations, or nonprofits. Get everyone involved and engaged as their coworkers perform magic for the first time!</p>"
+          "html": "<p class=\"lg\"><strong>2.⁠ ⁠Storytelling</strong></p><p>Robert helps your employees become masterful storytellers who can blend their personal experience into any presentation or talk.</p><p>Watch your employees smile and laugh as they develop their speaking presence through magic, adding their unique flare and personality to a routine!</p><p>Learning magic is the perfect team building activity for startups, corporations, or nonprofits. Get everyone involved and engaged as their coworkers perform magic for the first time!</p>",
+          "pos": "right",
+          "width": 642
         },
         {
           "type": "video",
@@ -83,7 +89,9 @@
         },
         {
           "type": "text",
-          "html": "<p class=\"lg\"><strong>3.⁠ ⁠Psychological Safety</strong></p><p>At his workshops, Robert conducts an exercise to increase bonding. First, he asks everyone to think of where they are stuck. The way they’re stuck could be big or small, work-related or personal, straightforward or complicated (but hopefully not literal). Then Robert goes around the circle, and everyone announces where they are stuck and the kind of help they are looking for: I need a bilingual software engineer… a new CTO… a wedding photographer… yummy alternative protein recipes… activities for visiting customers with kids… Chances are, someone in the room can help or may know someone with the solution. It’s a fantastic way to create a deeper connection in groups and solve problems.</p>"
+          "html": "<p class=\"lg\"><strong>3.⁠ ⁠Psychological Safety</strong></p><p>At his workshops, Robert conducts an exercise to increase bonding. First, he asks everyone to think of where they are stuck. The way they’re stuck could be big or small, work-related or personal, straightforward or complicated (but hopefully not literal). Then Robert goes around the circle, and everyone announces where they are stuck and the kind of help they are looking for: I need a bilingual software engineer… a new CTO… a wedding photographer… yummy alternative protein recipes… activities for visiting customers with kids… Chances are, someone in the room can help or may know someone with the solution. It’s a fantastic way to create a deeper connection in groups and solve problems.</p>",
+          "pos": "left",
+          "width": 642
         },
         {
           "type": "video",
@@ -92,7 +100,9 @@
         },
         {
           "type": "text",
-          "html": "<p class=\"lg\"><strong>4.⁠ ⁠Executive Presence</strong></p><p>Robert also shares the secrets behind amazing presentation, storytelling, and stage presence through teaching your team magic tricks! Robert comes prepared with countless tricks that your employees can learn in an instant and perform for the group!</p><p>Turn everyone in your organization into a master magician with one of Robert’s team building workshops. See employees performing one of Robert’s tricks for yourself. </p>"
+          "html": "<p class=\"lg\"><strong>4.⁠ ⁠Executive Presence</strong></p><p>Robert also shares the secrets behind amazing presentation, storytelling, and stage presence through teaching your team magic tricks! Robert comes prepared with countless tricks that your employees can learn in an instant and perform for the group!</p><p>Turn everyone in your organization into a master magician with one of Robert’s team building workshops. See employees performing one of Robert’s tricks for yourself. </p>",
+          "pos": "right",
+          "width": 642
         }
       ]
     },
@@ -122,22 +132,6 @@
               "src": "/assets/images/obert-strong-hired-as-magician-for-corporate-event-team-building-activities-.jpg",
               "alt": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!",
               "caption": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!"
-            },
-            {
-              "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-through-magic.jpeg",
-              "alt": "Robert stunning his volunteers as a magician at a corporate event."
-            },
-            {
-              "src": "/assets/images/corporate-magician-robert-strong-pictured-with-company-after-leading-office-team-building-activities.jpg",
-              "alt": "A group of happy attendees after completing The Marshmellow Challenge."
-            },
-            {
-              "src": "/assets/images/corporate-magician-robert-strong-leading-team-building-activities-for-a-large-audience.jpeg",
-              "alt": "A company after Robert led team building activities at a large corporate event."
-            },
-            {
-              "src": "/assets/images/obert-strong-hired-as-magician-for-corporate-event-team-building-activities-.jpg",
-              "alt": "Robert Strong leading a teambuilding magic trick with a company, bringing employees closer together than ever!"
             }
           ]
         }

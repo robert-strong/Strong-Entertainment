@@ -92,26 +92,6 @@
               "src": "/assets/images/robert-strong-performing-virtual-magic-jeopardy.png",
               "alt": "Robert stunning a virtual magic show corporate audience.",
               "caption": "Robert stunning a virtual magic show corporate audience."
-            },
-            {
-              "src": "/assets/images/robert-strong-performing-a-virtual-magic-show-with-his-partner-doug.jpg",
-              "alt": "Robert and his new side-kick performing a virtual magic show together."
-            },
-            {
-              "src": "/assets/images/robert-strong-the-virtual-comedy-magician.jpg",
-              "alt": "A cartooned digital deception virtual magic show."
-            },
-            {
-              "src": "/assets/images/robert-strong-doing-flexibility-trick-during-virtual-magic-show.jpg",
-              "alt": "Robert is flexible and can customize his show for you!"
-            },
-            {
-              "src": "/assets/images/robert-strong-virtual-magician-2.png",
-              "alt": "Robert stuns virtual crowds with the best virtual magic show they've seen."
-            },
-            {
-              "src": "/assets/images/robert-strong-performing-virtual-magic-jeopardy.png",
-              "alt": "Robert stunning a virtual magic show corporate audience."
             }
           ]
         }
@@ -122,7 +102,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h3><span class=\"c-red\"><strong>Captivate and Connect With Your Customers</strong></span><strong> Through Robert Strong’s Marketing Content Creation</strong></h3>"
+          "html": "<h3><span class=\"c-red\"><strong>Captivate and Connect With Your Customers</strong></span><strong> Through Robert Strong’s Marketing Content Creation</strong></h3>",
+          "pos": "left",
+          "width": 642
         },
         {
           "type": "video",
@@ -131,7 +113,9 @@
         },
         {
           "type": "text",
-          "html": "<p>Robert uses his background as a comedian, juggler, and magician to execute jaw-dropping white label content creation for companies. Unlike most content creation agencies, Robert uses his skills as a performer to create unique and personalized video marketing content for your company and audience.</p><p>Robert and his team help your organization:</p><ul><li><p><strong>Write the script</strong></p></li><li><p><strong>Build the graphics</strong></p></li><li><p><strong>Shoot the video</strong></p></li><li><p><strong>Do the editing</strong></p></li></ul><p>So your team has ready-to-go marketing videos that fit your messaging and bring in tons of new customers.</p><p>Robert’s 35+ years of experience as a performer and 15+ years of experience as a <a href=\"/trade-show-magician\">trade show magician</a> make him the best video salesman your customers can’t take their eyes away from. As a comedy magician, Robert is blends clean comedy with astounding magic tricks to produce fun videos that your company will love.</p>"
+          "html": "<p>Robert uses his background as a comedian, juggler, and magician to execute jaw-dropping white label content creation for companies. Unlike most content creation agencies, Robert uses his skills as a performer to create unique and personalized video marketing content for your company and audience.</p><p>Robert and his team help your organization:</p><ul><li><p><strong>Write the script</strong></p></li><li><p><strong>Build the graphics</strong></p></li><li><p><strong>Shoot the video</strong></p></li><li><p><strong>Do the editing</strong></p></li></ul><p>So your team has ready-to-go marketing videos that fit your messaging and bring in tons of new customers.</p><p>Robert’s 35+ years of experience as a performer and 15+ years of experience as a <a href=\"/trade-show-magician\">trade show magician</a> make him the best video salesman your customers can’t take their eyes away from. As a comedy magician, Robert is blends clean comedy with astounding magic tricks to produce fun videos that your company will love.</p>",
+          "pos": "right",
+          "width": 642
         }
       ]
     },
@@ -140,7 +124,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>Videos </strong><span class=\"c-red\"><strong>Robert Has Produced:</strong></span></h2>"
+          "html": "<h2><strong>Videos </strong><span class=\"c-red\"><strong>Robert Has Produced:</strong></span></h2>",
+          "pos": "left",
+          "width": 700
         },
         {
           "type": "video",
@@ -149,7 +135,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Marketing Video For GoKlean</h3>"
+          "html": "<h3 class=\"ta-c\">Marketing Video For GoKlean</h3>",
+          "pos": "right",
+          "width": 583
         },
         {
           "type": "video",
@@ -158,7 +146,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Event Introduction for Adobe</h3>"
+          "html": "<h3 class=\"ta-c\">Event Introduction for Adobe</h3>",
+          "pos": "left",
+          "width": 583
         },
         {
           "type": "video",
@@ -167,7 +157,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">C2ER Marketing Video</h3>"
+          "html": "<h3 class=\"ta-c\">C2ER Marketing Video</h3>",
+          "pos": "right",
+          "width": 583
         },
         {
           "type": "video",
@@ -176,7 +168,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Wind River Event Outro</h3>"
+          "html": "<h3 class=\"ta-c\">Wind River Event Outro</h3>",
+          "pos": "left",
+          "width": 583
         },
         {
           "type": "video",
@@ -185,7 +179,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Lenovo Event Introduction</h3>"
+          "html": "<h3 class=\"ta-c\">Lenovo Event Introduction</h3>",
+          "pos": "right",
+          "width": 583
         },
         {
           "type": "video",
@@ -194,7 +190,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Investing with Robert Strong</h3>"
+          "html": "<h3 class=\"ta-c\">Investing with Robert Strong</h3>",
+          "pos": "left",
+          "width": 583
         },
         {
           "type": "video",
@@ -203,11 +201,15 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Marketing Video</h3>"
+          "html": "<h3 class=\"ta-c\">Marketing Video</h3>",
+          "pos": "right",
+          "width": 583
         },
         {
           "type": "text",
-          "html": "<h2><strong>Get a </strong><span class=\"c-red\"><strong>Personalized, Professional Video </strong></span><strong>From Robert!</strong></h2>"
+          "html": "<h2><strong>Get a </strong><span class=\"c-red\"><strong>Personalized, Professional Video </strong></span><strong>From Robert!</strong></h2>",
+          "pos": "left",
+          "width": 583
         }
       ]
     },

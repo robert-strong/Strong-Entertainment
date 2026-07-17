@@ -52,7 +52,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><span class=\"c-light\"><strong>Why is Robert Strong </strong></span><span class=\"c-red\"><strong>Silicon Valley's Best</strong></span><span class=\"c-white\"><strong> Keynote Speaker and Entertainer?</strong></span></h2><p class=\"lg\"><span class=\"c-white\">Robert's specialty is creating </span><span class=\"c-red\"><strong>bespoke business keynotes</strong></span><span class=\"c-white\"> and workshops </span><span class=\"c-red\"><strong>that</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>speak to the story of your organization</strong></span><span class=\"c-white\"> and its culture.</span></p><p class=\"lg\"><span class=\"c-red\"><strong>He engages your guests </strong></span><span class=\"c-white\">with</span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\">the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</span></p><p class=\"lg\"><span class=\"c-white\">Robert </span><span class=\"c-red\"><strong>blends comedy, magic, and storytelling</strong></span><span class=\"c-white\"> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</span></p><p class=\"lg\"><span class=\"c-white\">Robert has a </span><span class=\"c-red\"><strong>flawless 35+ year track record</strong></span><span class=\"c-white\"> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</span></p>"
+          "html": "<h2><span class=\"c-light\"><strong>Why is Robert Strong </strong></span><span class=\"c-red\"><strong>Silicon Valley's Best</strong></span><span class=\"c-white\"><strong> Keynote Speaker and Entertainer?</strong></span></h2><p class=\"lg\"><span class=\"c-white\">Robert's specialty is creating </span><span class=\"c-red\"><strong>bespoke business keynotes</strong></span><span class=\"c-white\"> and workshops </span><span class=\"c-red\"><strong>that</strong></span><span class=\"c-white\">\n</span><span class=\"c-red\"><strong>speak to the story of your organization</strong></span><span class=\"c-white\"> and its culture.</span></p><p class=\"lg\"><span class=\"c-red\"><strong>He engages your guests </strong></span><span class=\"c-white\">with</span><span class=\"c-red\"><strong>\n</strong></span><span class=\"c-white\">the best forms of communication that demand full attention: magic and humor. Studies have shown that when people are amazed, laughing, and having fun, they remember the content more accurately, remember it longer, and share it with more people.</span></p><p class=\"lg\"><span class=\"c-white\">Robert </span><span class=\"c-red\"><strong>blends comedy, magic, and storytelling</strong></span><span class=\"c-white\"> to teach practical lessons and strategies that your audience can immediately use. Also, Robert blends science-backed info, activities, and innovative mixed media.</span></p><p class=\"lg\"><span class=\"c-white\">Robert has a </span><span class=\"c-red\"><strong>flawless 35+ year track record</strong></span><span class=\"c-white\"> entertaining everyone from engineers and scientists to founders and CEOs, from sales and marketing to US presidents and other world leaders.</span></p>",
+          "pos": "left",
+          "width": 992
         }
       ],
       "background": "/assets/images/website-homepage-hero-image-white-bar.png",
@@ -75,7 +77,9 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><span class=\"c-red\"><strong>Business Wisdom…</strong></span><strong> Told Through Magic</strong></h2>"
+          "html": "<h2><span class=\"c-red\"><strong>Business Wisdom…</strong></span><strong> Told Through Magic</strong></h2>",
+          "pos": "right",
+          "width": 992
         },
         {
           "type": "image",
@@ -95,7 +99,9 @@
         },
         {
           "type": "text",
-          "html": "<p class=\"lg\">Robert’s book<strong>\n</strong><a href=\"/amaze-and-delight\"><strong><em>Amaze &amp; Delight</em></strong></a> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p class=\"lg\">Robert demonstrates how the secrets to his success as an entertainer and magician can become impactful business tools.</p><p class=\"lg\">Drawing from an entire lifetime of captivating audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.</p><p class=\"lg\">You’ll enjoy illuminating stories from Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>"
+          "html": "<p class=\"lg\">Robert’s book<strong>\n</strong><a href=\"/amaze-and-delight\"><strong><em>Amaze &amp; Delight</em></strong></a> is a thoroughly researched and entertaining guide to improving executive presence, work culture, and customer experience.</p><p class=\"lg\">Robert demonstrates how the secrets to his success as an entertainer and magician can become impactful business tools.</p><p class=\"lg\">Drawing from an entire lifetime of captivating audiences,&nbsp;<em>Amaze &amp; Delight&nbsp;</em>offers indispensable insights on how to create fun, memorable experiences for your coworkers and customers.</p><p class=\"lg\">You’ll enjoy illuminating stories from Robert Strong’s &amp; David Martinez’s careers in magic, comedy, and high tech. Learn transformative, practical advice that you can start implementing right away.</p>",
+          "pos": "right",
+          "width": 992
         }
       ]
     },
@@ -104,11 +110,15 @@
       "blocks": [
         {
           "type": "text",
-          "html": "<h2><strong>He has done </strong><span class=\"c-red\"><strong>10 TEDx</strong></span><strong>\n</strong><span class=\"c-red\"><strong>Talks</strong></span><strong>, 2 TED Talks, and an appearance on the hit TV show </strong><span class=\"c-red\"><strong>Penn &amp; Teller Fool Us</strong></span><strong>.</strong></h2>"
+          "html": "<h2><strong>He has done </strong><span class=\"c-red\"><strong>10 TEDx</strong></span><strong>\n</strong><span class=\"c-red\"><strong>Talks</strong></span><strong>, 2 TED Talks, and an appearance on the hit TV show </strong><span class=\"c-red\"><strong>Penn &amp; Teller Fool Us</strong></span><strong>.</strong></h2>",
+          "pos": "left",
+          "width": 642
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2019</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2019</h3>",
+          "pos": "right",
+          "width": 525
         },
         {
           "type": "video",
@@ -117,7 +127,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2017</h3>"
+          "html": "<h3 class=\"ta-c\"> TEDx San Francisco, 2017</h3>",
+          "pos": "left",
+          "width": 525
         },
         {
           "type": "video",
@@ -126,7 +138,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">Penn &amp; Teller Fool Us</h3>"
+          "html": "<h3 class=\"ta-c\">Penn &amp; Teller Fool Us</h3>",
+          "pos": "right",
+          "width": 525
         },
         {
           "type": "video",
@@ -135,7 +149,9 @@
         },
         {
           "type": "text",
-          "html": "<h3 class=\"ta-c\">TEDx Palo Alto, 2019</h3>"
+          "html": "<h3 class=\"ta-c\">TEDx Palo Alto, 2019</h3>",
+          "pos": "left",
+          "width": 525
         },
         {
           "type": "video",
@@ -151,26 +167,6 @@
           "type": "gallery",
           "variant": "slideshow",
           "images": [
-            {
-              "src": "/assets/images/keynote-speaker-robert-strong-review1.png",
-              "alt": "keynote-speaker-robert-strong-review1.png"
-            },
-            {
-              "src": "/assets/images/keynote-speaker-robert-strong-review2.png",
-              "alt": "keynote-speaker-robert-strong-review2.png"
-            },
-            {
-              "src": "/assets/images/keynote-speaker-robert-strong-review3.png",
-              "alt": "keynote-speaker-robert-strong-review3.png"
-            },
-            {
-              "src": "/assets/images/adam-cheyer-speaker-review-1-.png",
-              "alt": "adam-cheyer-speaker-review (1).png"
-            },
-            {
-              "src": "/assets/images/keynote-speaker-robert-strong-review5.png",
-              "alt": "keynote-speaker-robert-strong-review5.png"
-            },
             {
               "src": "/assets/images/keynote-speaker-robert-strong-review1.png",
               "alt": "keynote-speaker-robert-strong-review1.png"
